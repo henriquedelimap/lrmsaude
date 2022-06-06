@@ -12,16 +12,22 @@ import foto10 from '@/assets/foto/usi.png'
 import foto11 from '@/assets/foto/you.png'
 
 export function Carousel(){
-    const fotos = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11]
+    const fotos = [
+        foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11    ]
     return(
-        <div className={styles.carousel}>
-            {
-                fotos.map((foto)=>(
-                    <>
-                    <img src={foto} className={styles.carousel__img} />
-                    </>
-                ))
-            }
+        <div className={styles.carousel__container}>
+            <div className={styles.carousel}>
+                <>
+                {
+                    fotos.map((foto)=>(
+                        <>
+                        <img src={foto} className={styles.carousel__img} />
+                        </>
+                    ))
+                }
+                </>
+            </div>
+            
         </div>
     )
 }

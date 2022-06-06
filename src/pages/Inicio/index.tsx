@@ -14,14 +14,17 @@ export function Inicio(){
         <>
         <Header />
         <section className={styles.home}>
-            <div>
-                <h2 className={styles.home__titulo}>planos populares</h2>
-                <ul className={styles.home__recomendados}>
+            <div className={styles.home__recomendados}>
+                <div className={styles.titulo}>
+                    <h2 >planos populares</h2>
+                    <span className={styles.titulo__span}></span>
+                </div>
+                <ul className={styles.home__recomendados__cards}>
                     {
                         planosRecomendados.map((plano)=>(
                             <li
                                 onClick={()=>navigate(`planos/${plano.id}`)}
-                                className={styles.home__recomendados__item}
+                                className={styles.home__recomendados__cards__card}
                                 key={plano.id}
                             >
                                 <Item {...plano} />
@@ -33,12 +36,18 @@ export function Inicio(){
                 </ul>
             </div>
             <div>
-                <h2 className={styles.home__titulo}>Operadoras</h2>
+                <div className={styles.titulo}>
+                    <h2 >Operadoras</h2>
+                    <span className={styles.titulo__span}></span>
+                </div>
                 <Carousel />
             </div>
 
             <div>
-                <h2 className={styles.home__titulo}>Comparativo dos planos</h2>
+                <div className={styles.titulo}>
+                    <h2 >Comparativo dos planos</h2>
+                    <span className={styles.titulo__span}></span>
+                </div>
 
                 <Categorias />
             </div>
