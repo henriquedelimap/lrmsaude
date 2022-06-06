@@ -1,10 +1,10 @@
 import styles from './Inicio.module.scss'
 import planos from '@/data/planos.json'
 import { useNavigate } from 'react-router-dom'
-import { Item } from '@/components/itens/item'
 import { Categorias } from '@/components/Categorias'
 import {Carousel} from '@/components/Carousel'
 import { Rota } from '@/components/Categorias/rota'
+import { Item } from '@/components/Itens/item'
 export function Inicio(){
     const navigate = useNavigate()
     let planosRecomendados = [...planos]
