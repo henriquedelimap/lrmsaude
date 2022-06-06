@@ -1,4 +1,4 @@
-import { WhatsApp } from '@/components/buttons/whatsapp'
+import { WhatsApp } from '@/components/Buttons/whatsapp'
 import { Plano } from 'types/IPlano'
 import styles from './TagsPlano.module.scss'
 
