@@ -3,7 +3,6 @@ import planos from '@/data/planos.json'
 import { useNavigate } from 'react-router-dom'
 import { Categorias } from '@/components/Categorias'
 import {Carousel} from '@/components/Carousel'
-import { Rota } from '@/components/Categorias/rota'
 import { Item } from '@/components/Itens/item'
 export function Inicio(){
     const navigate = useNavigate()
@@ -19,6 +18,7 @@ export function Inicio(){
                             <li
                                 onClick={()=>navigate(`planos/${plano.id}`)}
                                 className={styles.home__recomendados__item}
+                                key={plano.id}
                             >
                                 <Item {...plano} />
                             </li>
