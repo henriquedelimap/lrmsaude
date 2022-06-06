@@ -29,7 +29,7 @@ code {
   position: relative;
 
   display: grid;
-  grid-template-rows: 6.4rem 80vh 1fr 6.4rem;
+  grid-template-rows: 6.4rem 32rem 1fr 6.4rem;
 }
 
 

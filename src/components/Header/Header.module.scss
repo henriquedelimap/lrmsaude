@@ -2,7 +2,19 @@
 
 .header{
     overflow: hidden;
+    background-color: #0476d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img{
-        width: 100%;
+        height: 32rem;
+        border-radius: 50rem;
+        transition: all .3s ease;
+    }
+    @media screen and(max-width: 600px) {
+        img{
+            height: 32rem;
+            border-radius: 0;
+        }
     }
 }
