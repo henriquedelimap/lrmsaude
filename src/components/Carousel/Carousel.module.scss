@@ -2,30 +2,35 @@
 
 
 .carousel__container{
-    height: 9rem;
+    height: 8rem;
     width: 75vw;
     overflow: hidden;
-    position: relative;
     .carousel{
         display: flex;
         flex-direction: row;
         width: calc(9rem * 22);
-        animation: carousel 20s linear infinite ;
+        height: min-content;
+        animation: carousel 15s linear infinite ;
         
         &__img{
             margin: 1.2rem;
             max-width: 6.4rem;
             border-radius: 50rem;
-            box-shadow:  0px 0px 0rem .08rem $shadow;
+            box-shadow:  0px 0px .32rem 0rem $shadow; 
         }
+        &:hover{
+            animation-play-state: paused;
+            cursor: grabbing;
+        }
+        
 
         @keyframes carousel{
             0%{
-                transform: translateX(0%) ;
+                transform: translateX(-8rem) ;
 
             }
             100%{
-                transform: translateX(calc(-9rem * 11)) ;
+                transform: translateX(calc(-9rem * 11 - 6rem)) ;
             }
         }
     }
