@@ -3,67 +3,67 @@
         "id": 1,
         "operadora": "bradesco saúde",
         "administradora": ["AllCare","Nunes e Grossi", "Qualicorp"],
-        "img": "../assets/foto/bradescoSaude.png"
+        "img": "assets/foto/bradescoSaude.png"
         
     },
     {
         "id": 2,
         "operadora": "Grupo NotreDame Intermédica Minas",
         "administradora": ["Affix","AllCare","Corpore", "Nacional Saúde", "Plural", "Qualicorp", "Vallor"],
-        "img": "../assets/foto/notredame.png"
+        "img": "assets/foto/notredame.png"
     },
     {
         "id": 3,
         "operadora": "Premium Saúde",
         "administradora": ["Affix","MedClass", "Vallor"],
-        "img": "../assets/foto/premiumsaude.png"
+        "img": "assets/foto/premiumsaude.png"
     },
     {
         "id": 4,
         "operadora": "RN Saúde",
         "administradora": ["Affix","Alter"],
-        "img": "../assets/foto/rnsaude.png"
+        "img": "assets/foto/rnsaude.png"
     },
     {
         "id": 5,
         "operadora": "Seguros Unimed",
         "administradora": ["Grupo Elo","Plural"],
-        "img": "../assets/foto/seguros unimed.png"
+        "img": "assets/foto/seguros unimed.png"
     },
     {
         "id": 6,
         "operadora": "SF Saúde",
         "administradora": ["Alter"],
-        "img": "../assets/foto/sf.png"
+        "img": "assets/foto/sf.png"
     },
     {
         "id": 7,
         "operadora": "SulAmérica Saúde",
         "administradora": ["Qualicorp"],
-        "img": "../assets/foto/sulamerica.png"
+        "img": "assets/foto/sulamerica.png"
     },
     {
         "id": 8,
         "operadora": "Unimed Bello Horizonte",
         "administradora": ["Affiance"],
-        "img": "../assets/foto/unimed.png"
+        "img": "assets/foto/unimed.png"
     },
     {
         "id": 9,
         "operadora": "Unimed Uberlândia",
         "administradora": ["AllCare","Valem"],
-        "img": "../assets/foto/unimedUberlandia.png"
+        "img": "assets/foto/unimedUberlandia.png"
     },
     {
         "id": 10,
         "operadora": "UsiSaúde",
         "administradora": ["Qualicorp"],
-        "img": "../assets/foto/usi.png"
+        "img": "assets/foto/usi.png"
     },
     {
         "id": 11,
         "operadora": "You Saúde",
         "administradora": ["UniCor Benefícios"],
-        "img": "../assets/foto/you.png"
+        "img": "assets/foto/you.png"
     }
 ]

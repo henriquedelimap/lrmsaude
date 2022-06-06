@@ -7,7 +7,7 @@ export function Carousel(){
             {
                 infos.map((info)=>(
                     <>
-                    <img src={info.img} className={styles.carousel__img} />
+                    <img src={'dist/'+info.img} className={styles.carousel__img} />
                     </>
                 ))
             }
