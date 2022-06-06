@@ -1,6 +1,5 @@
 import styles from './Menu.module.scss'
 import { Link } from 'react-router-dom'
-import {v4 as uuidv4} from 'uuid'
 import { Logo } from '@/components/Logo'
 
 export function Menu(){
@@ -8,18 +7,18 @@ export function Menu(){
         {
             to: '/',
             label: 'Início',
-            id: uuidv4()
+            id: 1
         },
         {
             to: '/planos',
             label: 'Planos',
-            id: uuidv4()
+            id: 2
 
         },
         {
             to: '/sobre',
             label: 'Sobre',
-            id: uuidv4()
+            id: 3
         }
     ]
     return(
