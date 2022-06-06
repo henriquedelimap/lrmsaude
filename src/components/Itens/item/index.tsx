@@ -1,5 +1,4 @@
 import { TagsPlano } from '@/components/TagsPlano';
-import { WhatsApp } from '@/components/buttons/whatsapp';
 import { useNavigate } from 'react-router-dom';
 import { Plano } from 'types/IPlano';
 import styles from './Item.module.scss'

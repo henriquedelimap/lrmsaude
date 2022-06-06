@@ -3,10 +3,11 @@ import { NotFound } from '@/pages/NotFound'
 import { Route, Routes, useParams } from 'react-router-dom'
 import styles from './Plano.module.scss'
 import planos from '@/data/planos.json'
-import {Button} from '@/components/buttons/default'
-import { Previous } from '@/components/buttons/next-previous'
-import { Next } from '@/components/buttons/next-previous'
-import { Item } from '@/components/itens/item'
+import {Button} from '@/components/Buttons/default'
+import { Previous } from '@/components/Buttons/next-previous'
+import { Next } from '@/components/Buttons/next-previous'
+import { Item } from '@/components/Itens/Item'
+
 export function PlanoPage() {
     const { id } = useParams()
     const next = Number(id)
