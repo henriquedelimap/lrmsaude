@@ -1,0 +1,68 @@
+[
+    {
+        "title": "individual 1",
+        "description": "lorem ipsum",
+        "members": 1,
+        "price": 94.5,
+        "id": 1,
+        "category": {
+            "id": 1,
+            "label": "individual"
+        }
+    },
+    {
+        "title": "indidual 2",
+        "description": "lorem ipsum",
+        "members": 1,
+        "price": 44.5,
+        "id": 2,
+        "category": {
+            "id": 1,
+            "label": "individual"
+        }
+    },
+    {
+        "title": "familiar 1",
+        "description": "lorem ipsum",
+        "members": 2,
+        "price": 94.5,
+        "id": 3,
+        "category": {
+            "id": 2,
+            "label": "familiar"
+        }
+    },
+    {
+        "title": "familiar 2",
+        "description": "lorem ipsum",
+        "members": 2,
+        "price": 94.5,
+        "id": 4,
+        "category": {
+            "id": 2,
+            "label": "familiar"
+        }
+    },
+    {
+        "title": "kid 1",
+        "description": "lorem ipsum",
+        "members": 2,
+        "price": 94.5,
+        "id": 5,
+        "category": {
+            "id": 3,
+            "label": "kid"
+        }
+    },
+    {
+        "title": "kid 2",
+        "description": "lorem ipsum",
+        "members": 2,
+        "price": 94.5,
+        "id": 6,
+        "category": {
+            "id": 3,
+            "label": "kid"
+        }
+    }
+]

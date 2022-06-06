@@ -1,0 +1,23 @@
+@import '@/styles/variaveis';
+.item{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid $shadow;
+    border-radius: .4rem;
+    height: 16rem;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem;
+    background-color: transparent;
+    h1{
+        background-color: transparent;
+    }
+    p{
+        background-color: transparent;
+    }
+    &:hover{
+        border: 0px solid transparent;
+        outline: 2px solid $hover;
+    }
+}

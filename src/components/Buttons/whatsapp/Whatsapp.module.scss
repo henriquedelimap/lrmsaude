@@ -1,0 +1,21 @@
+@import '@/styles/variaveis';
+.whatsapp{
+    background-color: $whatsapp;
+    border-radius: .4rem;
+    padding: .2rem 0;
+    margin: 0 1.6rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        color: white;
+        font-weight: 900;
+        letter-spacing: .064rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

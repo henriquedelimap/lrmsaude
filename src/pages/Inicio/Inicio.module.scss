@@ -1,0 +1,37 @@
+@import '@/styles/variaveis';
+.home{
+    display: flex;
+    flex-direction: column;
+
+    &__titulo{
+        font-weight: 600;
+    }
+    &__recomendados{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+
+        &__item{
+            min-width: 20rem;
+            cursor: pointer;
+            margin: .8rem 0;
+            transition: all .3s ease;
+            @media screen and (max-width: 990px){
+                width: 100%;
+                height: 16rem;
+            }
+            &::after{
+                position: absolute;
+
+                background-color: blue;
+                clip-path: circle(50%);
+            }
+            &:hover{
+                clip-path: circle(100%);
+
+            }
+        }
+    }
+}

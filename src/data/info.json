@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "operadora": "bradesco saúde",
+        "administradora": ["AllCare","Nunes e Grossi", "Qualicorp"],
+        "img": "dist/assets/bradescoSaude.png"
+        
+    },
+    {
+        "id": 2,
+        "operadora": "Grupo NotreDame Intermédica Minas",
+        "administradora": ["Affix","AllCare","Corpore", "Nacional Saúde", "Plural", "Qualicorp", "Vallor"],
+        "img": "dist/assets/notredame.png"
+    },
+    {
+        "id": 3,
+        "operadora": "Premium Saúde",
+        "administradora": ["Affix","MedClass", "Vallor"],
+        "img": "dist/assets/premiumsaude.png"
+    },
+    {
+        "id": 4,
+        "operadora": "RN Saúde",
+        "administradora": ["Affix","Alter"],
+        "img": "dist/assets/rnsaude.png"
+    },
+    {
+        "id": 5,
+        "operadora": "Seguros Unimed",
+        "administradora": ["Grupo Elo","Plural"],
+        "img": "dist/assets/seguros unimed.png"
+    },
+    {
+        "id": 6,
+        "operadora": "SF Saúde",
+        "administradora": ["Alter"],
+        "img": "dist/assets/sf.png"
+    },
+    {
+        "id": 7,
+        "operadora": "SulAmérica Saúde",
+        "administradora": ["Qualicorp"],
+        "img": "dist/assets/sulamerica.png"
+    },
+    {
+        "id": 8,
+        "operadora": "Unimed Bello Horizonte",
+        "administradora": ["Affiance"],
+        "img": "dist/assets/unimed.png"
+    },
+    {
+        "id": 9,
+        "operadora": "Unimed Uberlândia",
+        "administradora": ["AllCare","Valem"],
+        "img": "dist/assets/unimedUberlandia.png"
+    },
+    {
+        "id": 10,
+        "operadora": "UsiSaúde",
+        "administradora": ["Qualicorp"],
+        "img": "dist/assets/usi.png"
+    },
+    {
+        "id": 11,
+        "operadora": "You Saúde",
+        "administradora": ["UniCor Benefícios"],
+        "img": "dist/assets/you.png"
+    }
+]

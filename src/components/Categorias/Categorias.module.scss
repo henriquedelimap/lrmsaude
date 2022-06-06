@@ -1,0 +1,6 @@
+@import '@/styles/variaveis';
+.categorias{
+    border: 1px solid $shadow;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}

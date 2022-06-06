@@ -1,0 +1,16 @@
+@import '@/styles/variaveis';
+
+.footer{
+    grid-row-start: 6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 12%;
+    background-color: $azul-text;
+    h1{
+        color: white;
+        span{
+            color: white;
+        }
+    }
+}
