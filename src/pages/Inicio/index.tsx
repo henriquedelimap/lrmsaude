@@ -4,11 +4,15 @@ import { useNavigate } from 'react-router-dom'
 import { Categorias } from '@/components/Categorias'
 import {Carousel} from '@/components/Carousel'
 import { Item } from '@/components/Itens/item'
+import { Header } from "@/components/Header";
+
 export function Inicio(){
     const navigate = useNavigate()
     let planosRecomendados = [...planos]
     planosRecomendados = planosRecomendados.sort(()=> 0.5 - Math.random()).splice(0,3)
     return(
+        <>
+        <Header />
         <section className={styles.home}>
             <div>
                 <h2 className={styles.home__titulo}>planos populares</h2>
@@ -41,6 +45,7 @@ export function Inicio(){
             
             
         </section>
+        </>
     )
 
 }
