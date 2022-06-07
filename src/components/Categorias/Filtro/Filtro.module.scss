@@ -4,6 +4,12 @@
     padding: .8rem 0;
     width: 76vw;
     overflow: hidden;
+    @media screen and(max-width: 990px){
+        &{
+            width: 100vw;
+
+        }
+    }
     &__slider{
         display: flex;
         cursor: grab;

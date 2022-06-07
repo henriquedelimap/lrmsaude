@@ -6,7 +6,7 @@
         flex-direction: row;
         max-height: auto;
         padding: .8rem 0;        
-        span{
+        &__itens{
             display: flex;
             align-items: center;
             justify-content: center;
