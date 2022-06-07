@@ -3,13 +3,13 @@ import { Plano } from 'types/IPlano'
 import styles from './TagsPlano.module.scss'
 
 export function TagsPlano(plano: Plano){
-    const {price, members} = plano
+    const {} = plano
     return(
         <div className={styles.tags}>
-            <span>
-                atende 0{members} pessoa{members !== 1 ? 's' : ''}
-            </span>
-            {price}
+                {plano.category.operadora}
+                <span>
+                    {plano.minAge} - {plano.maxAge}
+                </span>
             <WhatsApp {...plano} />
         </div>
     )
