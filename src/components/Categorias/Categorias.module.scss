@@ -1,7 +1,7 @@
 @import '@/styles/variaveis';
 .categorias{    
     height: auto;
-    width: 100%;
+    width: 76vw;
     // @media screen and(max-width: 990px){
     //     &{
     //         height: 80vh;
@@ -20,6 +20,7 @@
         overflow: hidden;
         height: 80vh;
         margin: 0 auto;
+        width: 100%;
 
         // @media screen and(max-width: 990px){
         //     &{
