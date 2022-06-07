@@ -19,16 +19,16 @@
         align-items: center;
         justify-content: center;
         min-width: 12rem;
+        white-space: nowrap;
         margin: .4rem;
         display: flex;
         height: 3.2rem;
         border: 1px solid $shadow;
         border-radius: 1rem;
-        padding: 0 .8rem;
+        padding: 0 1.2rem;
         background-color: $azul-text;
         color: white;
-        font-weight: 900;
-        letter-spacing: .032rem;
+        font-weight: 600;
         &:hover{
             background-color: transparent;
             border: 1px solid $azul-text;
