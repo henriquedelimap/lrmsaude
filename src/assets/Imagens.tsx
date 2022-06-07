@@ -15,68 +15,135 @@ export const Imagens =
     [
         {
             "img": foto1,
-            "id": 1,
+            "id":  Math.random() * 100,
             "label": "bradescoSaude",
             "title": "bradesco saúde" 
         },
         {
             "img": foto2,
-            "id": 2,
+            "id":  Math.random() * 100,
             "label": "premiumsaude",
             "title": "Premium Saúde"
         },
         {
             "img": foto3,
-            "id": 3,
+            "id":  Math.random() * 100,
             "label": "rnsaude",
             "title": "RN Saúde"
 
         },
         {
             "img": foto4,
-            "id": 4,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "Seguros Unimed"
         },
         {
             "img": foto5,
-            "id": 5,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "SF Saúde"
         },
         {
             "img": foto6,
-            "id": 6,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "SulAmérica Saúde"
         },
         {
             "img": foto7,
-            "id": 7,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "Unimed Bello Horizonte"
         },
         {
             "img": foto8,
-            "id": 8,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "Unimed Uberlândia"
         },
         {
             "img": foto9,
-            "id": 9,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "Usi Saúde"
         },
         {
             "img": foto10,
-            "id": 10,
+            "id":  Math.random() * 100,
             "label": "seguros unimed",
             "title": "You Saúde"
         },
         {
             "img": foto11,
-            "id": 11,
+            "id": Math.random() * 100,
+            "label": "notredame",
+            "title": "Grupo NotreDame Intermédica Minas"
+        },
+        {
+            "img": foto1,
+            "id":  Math.random() * 100,
+            "label": "bradescoSaude",
+            "title": "bradesco saúde" 
+        },
+        {
+            "img": foto2,
+            "id":  Math.random() * 100,
+            "label": "premiumsaude",
+            "title": "Premium Saúde"
+        },
+        {
+            "img": foto3,
+            "id":  Math.random() * 100,
+            "label": "rnsaude",
+            "title": "RN Saúde"
+
+        },
+        {
+            "img": foto4,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "Seguros Unimed"
+        },
+        {
+            "img": foto5,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "SF Saúde"
+        },
+        {
+            "img": foto6,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "SulAmérica Saúde"
+        },
+        {
+            "img": foto7,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "Unimed Bello Horizonte"
+        },
+        {
+            "img": foto8,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "Unimed Uberlândia"
+        },
+        {
+            "img": foto9,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "Usi Saúde"
+        },
+        {
+            "img": foto10,
+            "id":  Math.random() * 100,
+            "label": "seguros unimed",
+            "title": "You Saúde"
+        },
+        {
+            "img": foto11,
+            "id": Math.random() * 100,
             "label": "notredame",
             "title": "Grupo NotreDame Intermédica Minas"
         }        

@@ -12,7 +12,7 @@ export function Categorias() {
       
     return (
         <Routes>
-            <Route path="/" element={
+            <Route path="*" element={
                 <section className={styles.categorias}>
                     <div className={styles.categorias__container}>
 

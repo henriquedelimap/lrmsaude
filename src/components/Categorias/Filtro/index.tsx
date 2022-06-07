@@ -28,6 +28,7 @@ export function Filtro(){
                     <motion.div 
                     
                     className={styles.filtros__filtro}
+                    key={info.id}
                     onClick={()=>navigate(`/${info.id}`)}>
 
                         {info.operadora}
