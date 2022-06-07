@@ -4,6 +4,10 @@
     padding: .8rem 0;
     width: 76vw;
     overflow: hidden;
+    &__slider{
+        display: flex;
+        cursor: grab;
+    }
     &__filtro{
         display: flex;
         align-items: center;

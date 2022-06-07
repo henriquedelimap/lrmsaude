@@ -14,6 +14,8 @@ export function Categorias() {
         <Routes>
             <Route path="/" element={
                 <section className={styles.categorias}>
+                    <div className={styles.categorias__container}>
+
                     <div className={styles.categorias__operadoras}>  
                         <span>operadoras</span>
                         <Filtro  />
@@ -23,6 +25,7 @@ export function Categorias() {
                         <Outlet  />
                     </div>
                 
+                    </div>
                 </section>
             }>
                 <Route path='*' element={<Categoria />} />  
