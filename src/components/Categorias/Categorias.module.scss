@@ -5,7 +5,7 @@
     @media screen and(max-width: 990px){
         &{
             height: 80vh;
-            min-width: 94vw;            
+            min-width: 96vw; 
         }
     }
     .categorias__container{
@@ -21,6 +21,9 @@
         @media screen and(max-width: 990px){
             &{
                 width: 100%;
+                margin: 0;
+                padding: 0;
+                border: none;
             }
         }
         &__operadoras{

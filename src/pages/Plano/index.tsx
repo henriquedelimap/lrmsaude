@@ -15,9 +15,13 @@ export function PlanoPage(plano: Plano){
     return(
         <div className={styles.plano}>
             <div className={styles.plano__header}>
-                {plano.category.administradora}
                 <img src={match} alt={alt} className={styles.plano__header__img} />
-                {plano.title}
+                <span>
+                    {plano.category.administradora}
+                </span>
+                <span>
+                    {plano.title}
+                </span>
             </div>
 
             <div className={styles.plano__description}>

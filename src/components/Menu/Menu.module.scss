@@ -13,9 +13,11 @@
     width: 100%;
     &__lista{
         display: flex;
-        
         list-style: none;
+        background-attachment: $azul;
         &__item{
+            background-attachment: $azul;
+
             text-decoration: none;
             margin: 0 1.2rem;
             font-weight: 600;
