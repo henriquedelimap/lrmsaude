@@ -1,4 +1,4 @@
-import { Filtro } from "@/components/Filtro";
+import { Filtro } from "./Filtro";
 import { Outlet, Route, Routes, useParams } from "react-router-dom";
 import { Categoria } from "./Categoria";
 import planos from '@/data/planos.json'
@@ -14,7 +14,7 @@ export function Categorias() {
         <Routes>
             <Route path="/" element={
                 <section className={styles.categorias}>
-                    <div>  
+                    <div className={styles.categorias__operadoras}>  
                         <span>operadoras</span>
                         <Filtro  />
                     </div>

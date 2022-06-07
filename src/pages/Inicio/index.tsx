@@ -14,7 +14,7 @@ export function Inicio(){
         <>
         <Header />
         <section className={styles.home}>
-            <div className={styles.home__recomendados}>
+            <div className={styles.margim}>
                 <div className={styles.titulo}>
                     <h2 >planos populares</h2>
                     <span className={styles.titulo__span}></span>
@@ -35,6 +35,7 @@ export function Inicio(){
                     }
                 </ul>
             </div>
+            
             <div>
                 <div className={styles.titulo}>
                     <h2 >Operadoras</h2>
@@ -48,11 +49,8 @@ export function Inicio(){
                     <h2 >Comparativo dos planos</h2>
                     <span className={styles.titulo__span}></span>
                 </div>
-
                 <Categorias />
             </div>
-            
-            
         </section>
         </>
     )

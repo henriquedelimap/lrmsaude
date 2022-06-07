@@ -7,12 +7,6 @@
         
     },
     {
-        "id": 2,
-        "operadora": "Grupo NotreDame Intermédica Minas",
-        "administradora": ["Affix","AllCare","Corpore", "Nacional Saúde", "Plural", "Qualicorp", "Vallor"],
-        "img": "assets/foto/notredame.png"
-    },
-    {
         "id": 3,
         "operadora": "Premium Saúde",
         "administradora": ["Affix","MedClass", "Vallor"],
@@ -65,5 +59,11 @@
         "operadora": "You Saúde",
         "administradora": ["UniCor Benefícios"],
         "img": "assets/foto/you.png"
+    },
+    {
+        "id": 2,
+        "operadora": "Grupo NotreDame Intermédica Minas",
+        "administradora": ["Affix","AllCare","Corpore", "Plural", "Qualicorp", "Vallor",  "Nacional Saúde"],
+        "img": "assets/foto/notredame.png"
     }
 ]

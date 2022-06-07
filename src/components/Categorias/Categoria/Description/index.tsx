@@ -6,10 +6,13 @@ export function Description(info: Info ){
     let listItens;
     return(
         <div className={styles.description}>
-            {listItens = info.administradora.map((item)=>(
-                <span>{item}</span>
-            )
-            )}
+            <div className={styles.description__administradoras}>
+            {
+                listItens = info.administradora.map((item)=>(
+                        <span>{item}</span>
+                        ))  
+                    }
+            </div>
         </div>
     )
 }

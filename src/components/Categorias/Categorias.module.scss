@@ -1,6 +1,13 @@
 @import '@/styles/variaveis';
 .categorias{
     border: 1px solid $shadow;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem 3.2rem;
+    overflow: hidden;
+    height: 80vh;
+    &__operadoras{
+        
+    }
 }

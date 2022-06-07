@@ -1,0 +1,28 @@
+@import '@/styles/variaveis';
+.filtros{
+    display: flex;
+    padding: .8rem 0;
+    width: 76vw;
+    overflow: hidden;
+    &__filtro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 12rem;
+        margin: .4rem;
+        display: flex;
+        height: 3.2rem;
+        border: 1px solid $shadow;
+        border-radius: 1rem;
+        padding: 0 .8rem;
+        background-color: $azul-text;
+        color: white;
+        font-weight: 900;
+        letter-spacing: .032rem;
+        &:hover{
+            background-color: transparent;
+            border: 1px solid $azul-text;
+            color: $azul-text;
+        }
+    }
+}

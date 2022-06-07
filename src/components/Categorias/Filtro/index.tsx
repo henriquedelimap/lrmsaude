@@ -21,11 +21,13 @@ export function Filtro(){
 
 
     return(
-        <ul>
+        <ul className={styles.filtros}>
             {
                 infos.map((info: Info)=>(
 
-                    <li onClick={()=>navigate(`/${info.id}`)}>
+                    <li
+                        className={styles.filtros__filtro}
+                        onClick={()=>navigate(`/${info.id}`)}>
                         {info.operadora}
                     </li>
             ))
