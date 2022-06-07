@@ -1,5 +1,5 @@
 import { WhatsApp } from "@/components/Buttons/whatsapp";
-import { Imagens } from "@/assets/imagens";
+import { Imagens } from "@/assets";
 import { IImagem, Plano } from "types/IPlano";
 import styles from './Plano.module.scss'
 export function PlanoPage(plano: Plano){
