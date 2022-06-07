@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Menu } from '@/components/Menu'
 import { Footer } from '@/components/Footer'
 import './index.css'
-import { PlanoPage } from '@/pages/Plano'
+import { RotasPlanos } from '@/pages/Planos/RotasPlanos.tsx'
 import { Categoria } from '@/components/Categorias/Categoria'
 
 export function AppRouter(){
@@ -24,7 +24,7 @@ export function AppRouter(){
                         <Route path="sobre" element={<Sobre />} />
                     </Route>
                     <Route path='*' element={<NotFound />} />
-                    <Route path='planos/:id/*' element={<PlanoPage />} />
+                    <Route path='planos/:id/*' element={<RotasPlanos />} />
                 </Routes>
                 <Footer />
             </Router>

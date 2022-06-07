@@ -8,6 +8,7 @@ export function Button(props:{title: string, to: string}){
     return(
         <button 
             onClick={() => navigate(`/${to}`)}
+            className={styles.button}
         
         >
             {title}
