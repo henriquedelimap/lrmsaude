@@ -1,19 +1,18 @@
 @import '@/styles/variaveis';
 .logo{
     cursor: pointer;
-    font-weight: 900;
     white-space: nowrap;
-    margin-right: 1.2rem;
-    background-color: transparent;
     h1{
-        font-size: 2rem;
-        color: $azul-text;
+        font-weight: 900;
+        font-size: 1.6rem;
+        color: $branco;
         background-color: transparent;
         span{
-            font-size: 1.6rem;
-            color: $azul-text;
-            background-color: transparent;
+            font-weight: 600;
 
+            font-size: 1.2rem;
+            color: $branco;
+            background-color: transparent;
         }
     }
 }

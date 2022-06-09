@@ -9,7 +9,6 @@ export function Button(props:{title: string, to: string}){
         <button 
             onClick={() => navigate(`/${to}`)}
             className={styles.button}
-        
         >
             {title}
         </button>

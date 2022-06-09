@@ -1,37 +1,64 @@
 @import '@/styles/variaveis';
 .menu{
-    display: flex;
-    position: sticky;
-    top: 0;
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    gap: 3.2rem;
     align-items: baseline;
-    justify-content: space-between;
-    background-color: $azul;
+    padding: 2.4rem 3.2rem;
+    background-color: $azul-text;
     overflow: hidden;
-    box-shadow: 0px 1px 3px 0px $shadow;
-    padding: 1rem 12%;
+    height: max-content;
     z-index: 100;
-    width: 100%;
+    &__logo{
+    }
+    &__whatsapp{
+        justify-self: flex-end;
+    }
+    &__icone{
+        display: none;
+    }
+
     &__lista{
         display: flex;
-        list-style: none;
-        background-attachment: $azul;
+        flex-direction: row;
         &__item{
-            background-attachment: $azul;
-
             text-decoration: none;
-            margin: 0 1.2rem;
+            margin-right: 3.2rem;
             font-weight: 600;
             font-size: 1.2rem;
             letter-spacing: .064rem;
-            color: $azul-text;
+            color: $branco;
         }
+    }
 
-        @media screen and(max-width: 1080px){
-            &__item{
-                margin: 0 .6rem;
-                letter-spacing: 0rem;
-                font-size: 1rem;
+    @media screen and(max-width: 1024px) {
+        &{
+            padding: 2.4rem 3.2rem;
+            width: 100vw;
+            grid-template-columns:  1fr 1fr;
+            align-items: center;
+            &__lista{
+                display: none;
+            }
 
+            &__whatsapp{
+                display: none;
+            }
+            &__icone{
+                display: flex;
+                flex-direction: column;
+                width: 3.2rem;
+                justify-self: center;
+
+                &__rect{
+                    display: flex;
+                    margin: .2rem;
+                    width: 2rem;
+                    height: .16rem;
+                    border-radius: 1rem;
+                    background-color: $branco;
+
+                }
             }
         }
     }

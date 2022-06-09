@@ -4,9 +4,15 @@ import { useState } from 'react'
 import { Item } from './item'
 import { Plano } from 'types/IPlano'
 
+interface Props{
+    ordenador: string
+}
 
-export function Itens(){
+export function Itens(props: Props){
+    const [lista, setLista]= useState(planos)
     
+    const {ordenador} = props
+
     return(
         <div>
             {
