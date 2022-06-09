@@ -4,19 +4,8 @@ import styles from "./Description.module.scss"
 import { motion } from 'framer-motion'
 
 export function Description(info: Info ){
-    let listItens;
+    let listItens
     return(
-        // <div className={styles.description}>
-        //     <div className={styles.description__administradoras}>
-        //     {
-        //         listItens = info.administradora.map((item)=>(
-        //                 <span>{item}</span>
-        //                 ))  
-        //             }
-        //     </div> 
-        // </div>
-
-
     <motion.div  className={styles.description}>
             <motion.div 
                 className={styles.description__administradoras}
@@ -25,8 +14,11 @@ export function Description(info: Info ){
 
     
                 {
-                listItens = info.administradora.map((item)=>(
-                        <motion.div className={styles.description__administradoras__itens}>{item}</motion.div>
+                listItens = info.administradora.map((item, index)=>(
+                        <motion.div
+                        key={index}
+                            className={styles.description__administradoras__itens}
+                        >{item}</motion.div>
                         ))  
                 }
         </motion.div>

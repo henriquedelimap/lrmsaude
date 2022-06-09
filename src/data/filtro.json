@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "planos": {
+            "name":"planos", 
+            "id":"planos",
+            "option":["saúde", "odontológico"]
+        },
+        "acomodacao": {
+            "name": "acomodação",
+            "id": "acomodacao",
+            "option":["enfermaria", "apartamento"]
+        },
+        "abrangencia": {
+            "name": "abrangência",
+            "id": "abrangencia",
+            "option":["municipal", "estadual", "nacional"]
+        },
+        "regiao":{
+            "name": "região",
+            "id": "regiao",
+            "option":["Uberlândia", "Prata", "Monte Alegre de Minas", "Centralina", "Indianópolis", "Tupaciguara"]
+        },
+        "entidade": {
+            "name": "entidade",
+            "id": "entidade",
+            "option":["profissional liberal","estudante","profissional do comércio de bens e serviços", "servidor público"]
+        },
+        "idade": {
+            "name": "idade",
+            "id": "idade",
+            "option":[["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59"]]
+        }
+    }
+]

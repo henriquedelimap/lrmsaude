@@ -11,7 +11,8 @@ export function Categoria(){
                 const {id}=useParams()
                 if(Number(info.id) === Number(id)){
                     return(
-                        <Description {...info} />
+
+                        <Description key={info.id} {...info} />
                     )   
                 }
             }) 
