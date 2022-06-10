@@ -32,7 +32,15 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             padding: 1.6rem 3.2rem;
+            &__texts{
+                &__txt{
+                    font-size: 1.6rem;
+                }
+            &__description{
+                font-size: 1.2rem;  
+            }
 
+            }
         }
     }
 }
