@@ -33,11 +33,16 @@
             grid-template-rows: 1fr 1fr;
             padding: 1.6rem 3.2rem;
             &__texts{
+                display: flex;
+                align-items: center;
+                
                 &__txt{
                     font-size: 1.6rem;
+                    
                 }
             &__description{
                 font-size: 1.2rem;  
+                text-align: justify;
             }
 
             }
