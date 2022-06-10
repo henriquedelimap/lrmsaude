@@ -17,6 +17,7 @@
         }
     }
     &__recomendados{
+        height: auto;
         &__cards{
             display: flex;
             flex-wrap: wrap;
