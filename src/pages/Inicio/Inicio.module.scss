@@ -43,10 +43,10 @@
     @media screen and(max-width: 1024px) {
         &{
             padding: 0rem;
+            display: flex;
             &__recomendados{
-                height: 100vh;
+                height: auto;
                 &__cards{
-                    flex-direction: row;
                     justify-content: center;
                     &__card{
                         margin-bottom: 3.2rem;
