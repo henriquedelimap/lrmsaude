@@ -36,7 +36,7 @@ export function Inicio(){
                 </ul>
             </div>
             
-            <div>
+            <div className={styles.home__operadoras}>
                 <div className={styles.titulo}>
                     <h2 >Operadoras</h2>
                     <span className={styles.titulo__span}></span>
