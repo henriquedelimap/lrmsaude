@@ -7,38 +7,47 @@
     width: 100vw;
     height: 100vh;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 2.4rem 1.2rem 3.2rem 1.2rem;
-    z-index: 10000;
-    .icone{
-        display: flex;
-        height: 1.6rem;
-        width: 3.2rem;
-        position: relative;
-        cursor: pointer;
 
-        &__rect{
+    overflow: hidden;
+    &__box{
+        position: fixed;
+        overflow: hidden;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 2.4rem 1.2rem 3.2rem 1.2rem;
+        width: 100%;
+        height: 100%;
+        .icone{
             display: flex;
-            margin: 0rem .32rem;
-            width: 2rem;
-            height: .12rem;
-            border-radius: 1rem;
-            background-color: #000;
-            &:nth-child(1){
-                position: absolute;
-                transform: rotate(45deg);
-                right: 0;
-                top: 50%;
-            }
-            &:nth-child(2){
-                position: absolute;
-                transform: rotate(-45deg);
-                right: 0;
-                top: 50%;
+            height: 1.6rem;
+            width: 3.2rem;
+            position: relative;
+            cursor: pointer;
+    
+            &__rect{
+                display: flex;
+                margin: 0rem .32rem;
+                width: 2rem;
+                height: .12rem;
+                border-radius: 1rem;
+                background-color: #000;
+                &:nth-child(1){
+                    position: absolute;
+                    transform: rotate(45deg);
+                    right: 0;
+                    top: 50%;
+                }
+                &:nth-child(2){
+                    position: absolute;
+                    transform: rotate(-45deg);
+                    right: 0;
+                    top: 50%;
+                }
             }
         }
     }
+    
 }
 .off{
     display: none;

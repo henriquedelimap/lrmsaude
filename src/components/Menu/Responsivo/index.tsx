@@ -14,13 +14,16 @@ export function MenuResponsivo(){
             })}
             onClick={()=>setIsExtended(!isExtended)}
         >
-            <div>
-                
+            <div className={styles.menuResponvivo__box}>
+                <div>
+
+                </div>
+                <div className={styles.icone}>
+                    <span className={styles.icone__rect} />
+                    <span className={styles.icone__rect} />
+                </div>
             </div>
-            <div className={styles.icone}>
-                <span className={styles.icone__rect} />
-                <span className={styles.icone__rect} />
-            </div>
+            
         </div>
         </>
     )
