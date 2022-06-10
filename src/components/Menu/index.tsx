@@ -4,8 +4,11 @@ import { Logo } from '@/components/Logo'
 import { WhatsApp } from '@/components/Buttons/whatsapp'
 import {MdMenu} from 'react-icons/md'
 import { MenuResponsivo } from './Responsivo'
+import { useState } from 'react'
 
 export function Menu(){
+    const [isNavExpanded, setIsNavExpanded] = useState(false)
+
     const rotas = [
         {
             to: '/',
@@ -29,13 +32,6 @@ export function Menu(){
             id: 4
         }
     ]
-    const button = "a"
-    function abrirMenu(){
-        return (
-            <MenuResponsivo />
-        )
-    }
-
     return(
         <nav className={styles.menu}>
             <span className={styles.menu__logo}>
@@ -61,11 +57,15 @@ export function Menu(){
             <span className={styles.menu__whatsapp}>
                 <WhatsApp title={'cotacao'}/>
             </span>
-            <div className={styles.menu__icone} onClick={()=>abrirMenu}>
+            <div className={styles.menu__icone} onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                 <span className={styles.menu__icone__rect} />
                 <span className={styles.menu__icone__rect} />
                 <span className={styles.menu__icone__rect} />
             </div>
+            {
+                isNavExpanded ? <MenuResponsivo /> : ''
+            }
+
             
         </nav>
     )

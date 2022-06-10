@@ -8,7 +8,7 @@
     &__container{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 12rem 12rem 0rem 8rem;
+        padding: 12rem 8rem 0rem 8rem;
 
 
         
@@ -24,7 +24,7 @@
                 color: $branco;
             }
             &__description{
-                padding: 3.2rem 0;
+                padding: 2.4rem 0;
                 color: $branco;
                 font-size: 1.4rem;  
                 font-weight: 400;         

@@ -44,7 +44,11 @@
             &__whatsapp{
                 display: none;
             }
+            .navigation{
+                display: block;
+            }
             &__icone{
+                cursor: pointer;
                 display: flex;
                 flex-direction: column;
                 width: 3.2rem;
