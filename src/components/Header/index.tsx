@@ -7,7 +7,7 @@ export function Header(){
         <header className={styles.header}>
             <div className={styles.header__container}>
                 <div className={styles.header__container__texts}>
-                    <h3 className={styles.header__container__texts__txt}>Planos de saúde e odontológicos para toda família</h3>
+                    <h3 className={styles.header__container__texts__txt}>Planos de saúde e odontológicos</h3>
                     <p className={styles.header__container__texts__description}>Cuide da sua saúde e da saúde de quem mais ama contratando nossos planos de saúde e odontológico a um preço que cabe no seu bolso</p>
                     <WhatsApp />
 
