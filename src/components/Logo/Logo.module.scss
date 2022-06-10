@@ -15,4 +15,16 @@
             background-color: transparent;
         }
     }
+
+    @media screen and(max-width: 1024px) {
+        &{
+            h1{
+                font-weight: 600;
+                span{
+                    font-weight: 400;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
 }
