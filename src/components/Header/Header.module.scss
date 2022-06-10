@@ -5,6 +5,7 @@
     height: calc(100vh - 6.4rem);
     overflow: hidden;
     background-color: $azul-text;
+    z-index: 1000;
     &__container{
         display: grid;
         grid-template-columns: 1fr 1fr;
