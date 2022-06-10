@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Logo } from '@/components/Logo'
 import { WhatsApp } from '@/components/Buttons/whatsapp'
 import {MdMenu} from 'react-icons/md'
+import { MenuResponsivo } from './Responsivo'
 
 export function Menu(){
     const rotas = [
@@ -29,6 +30,12 @@ export function Menu(){
         }
     ]
     const button = "a"
+    function abrirMenu(){
+        return (
+            <MenuResponsivo />
+        )
+    }
+
     return(
         <nav className={styles.menu}>
             <span className={styles.menu__logo}>
@@ -54,11 +61,12 @@ export function Menu(){
             <span className={styles.menu__whatsapp}>
                 <WhatsApp title={'cotacao'}/>
             </span>
-            <span className={styles.menu__icone}>
+            <div className={styles.menu__icone} onClick={()=>abrirMenu}>
                 <span className={styles.menu__icone__rect} />
                 <span className={styles.menu__icone__rect} />
                 <span className={styles.menu__icone__rect} />
-            </span>
+            </div>
+            
         </nav>
     )
     

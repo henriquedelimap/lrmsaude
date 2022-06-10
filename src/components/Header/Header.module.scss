@@ -28,7 +28,7 @@
                 padding: 3.2rem 0;
                 color: $branco;
                 font-size: 1.4rem;  
-                font-weight: 600;         
+                font-weight: 400;         
             }
         }
     }
@@ -43,7 +43,7 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr;
                 &__texts{
-                    padding: 1.6rem 6.4rem 1.6rem 1.6rem;
+                    padding: 3.2rem 6.4rem 1.6rem 1.6rem;
 
                     &__txt{
                         font-size: 2rem;
