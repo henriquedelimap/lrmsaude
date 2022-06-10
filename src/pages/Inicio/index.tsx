@@ -14,10 +14,10 @@ export function Inicio(){
         <>
         <Header />
         <section className={styles.home}>
-            <div className={styles.margim}>
+            <div className={styles.home__recomendados}>
                 <div className={styles.titulo}>
                     <h2 >planos populares</h2>
-                    <span className={styles.titulo__span}></span>
+                    <span className={styles.home__recomendados__titulo__span}></span>
                 </div>
                 <ul className={styles.home__recomendados__cards}>
                     {

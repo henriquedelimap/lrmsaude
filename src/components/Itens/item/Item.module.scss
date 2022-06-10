@@ -1,26 +1,8 @@
 @import '@/styles/variaveis';
 .item{
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid $shadow;
-    border-radius: .4rem;
-    height: 16rem;
-    margin-bottom: 1.6rem;
-    padding: 1.6rem;
-    background-color: $azul2;
-    h1{
 
-        font-weight: 600;
-        font-size: 1.6rem;
 
-        background-color: transparent;
-    }
-    p{
-        background-color: transparent;
-    }
     &:hover{
         border: 0px solid transparent;
         outline: 2px solid $hover;
