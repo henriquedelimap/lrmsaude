@@ -14,8 +14,8 @@
         overflow: hidden;
 
         display: grid;
-        grid-template-columns: 4fr .32fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: .1fr 1fr;
         justify-content: space-between;
         padding: 2.4rem 1.2rem 3.2rem 1.2rem;
         width: 100%;
@@ -42,6 +42,7 @@
             }
         }
         .icone{
+            justify-self: flex-end;
             height: 1.6rem;
             width: 3.2rem;
             position: relative;
