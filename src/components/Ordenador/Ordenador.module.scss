@@ -16,10 +16,10 @@
     @media screen and(max-width: 1024px) {
         &{
             width: 100vw;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             select{
-                width: 12rem;
-                margin: .8rem;
+                margin: .64rem;
+                padding: 0;
             }
         }
     }
