@@ -1,3 +1,4 @@
+import { MdNavigateBefore } from 'react-icons/md'
 import { useNavigate } from 'react-router-dom'
 import styles from './Buttons.module.scss'
 
@@ -10,7 +11,7 @@ export function Button(props:{title: string, to: string}){
             onClick={() => navigate(`/${to}`)}
             className={styles.button}
         >
-            {title}
+            <MdNavigateBefore className={styles.button__icone} />{title}
         </button>
     )
 }

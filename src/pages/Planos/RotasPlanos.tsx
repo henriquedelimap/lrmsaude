@@ -17,7 +17,7 @@ export function RotasPlanos() {
             <NotFound />
         )
     }
-    const button = {title: '< planos', to: `planos`}
+    const button = {title: 'planos', to: `planos`}
     return (
         <Routes>
             <Route path='*' element={<DefaultPage />}>
@@ -25,8 +25,6 @@ export function RotasPlanos() {
                     <>
                         <Button {...button} />
                         <PlanoPage {...plano} />
-                        <Previous previous={previous} />
-                        <Next next={next} />
                     </>
                 } />
             </Route>

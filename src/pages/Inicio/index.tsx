@@ -12,7 +12,7 @@ export function Inicio(){
         <section className={styles.home}>
             {/* <Recomendados /> */}
             <Operadoras />
-            <Comparativo />
+            {/* <Comparativo /> */}
         </section>
         </>
     )
