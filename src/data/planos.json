@@ -1,16 +1,35 @@
 [
     {
         "id": 1,
-        "title": "",
+        "title": [""],
         "description": "",
-        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59"]],
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
         "acomodacao": ["enfermaria", "apartamento"],
-        "coParticipation": "indiferente",
+        "abrangencia":["municipal", "estadual", "nacional"],
+        "coParticipation": ["com participação"],
         "obstetria": true,
         "category": {
             "id": 1,
             "label": "unimedUberlandia",
             "operadora": "Unimed Uberlândia",
+            "administradora": "AllCare",
+            "ramo": "saúde",
+            "modalidade": "adesão"
+        }
+    },
+    {
+        "id": 2,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": ["enfermaria", "apartamento"],
+        "abrangencia":["municipal", "estadual", "nacional"],
+        "coParticipation": ["com coparticipação", "sem coparticipação"],
+        "obstetria": true,
+        "category": {
+            "id": 2,
+            "label": "rnsaude",
+            "operadora": "RN Saúde",
             "administradora": "AllCare",
             "ramo": "saúde",
             "modalidade": "adesão"

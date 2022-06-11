@@ -15,7 +15,7 @@ export function Ordenador(){
             let entidade= item.entidade
             let idade = item.idade
             return (
-                <div className={styles.ordenador}>
+                <div key={item.id} className={styles.ordenador}>
                     <SelectOption {...planos}/>
                     <SelectOption {...acomodacao}/>
                     <SelectOption {...abrangencia}/>
@@ -23,8 +23,8 @@ export function Ordenador(){
                     <SelectOption {...entidade}/>
                     <select name={idade.name} id={idade.id}>
                         {
-                            idade.option.map((option)=>(
-                                <option value={option}>{option}</option>
+                            idade.option.map((option, index)=>(
+                                <option key={index} value={option}>{option}</option>
                             ))
                         }
                     </select>

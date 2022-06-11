@@ -7,7 +7,7 @@ import { PlanoPage } from 'pages/Plano';
 import planos from '@/data/planos.json'
 
 export function Item({ acomodacao}:{ acomodacao: string}){
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     
     return(
         <div

@@ -8,8 +8,8 @@ export function SelectOption(options: IOption){
     return(
         <select name={options.name} id={options.id}>
             {
-                options.option.map((option)=>(
-                    <option value={option}>{option}</option>
+                options.option.map((option, index)=>(                 
+                    <option key={index} value={option}>{option}</option>
                 ))
             }
                         
