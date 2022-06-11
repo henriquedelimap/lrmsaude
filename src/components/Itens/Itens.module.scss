@@ -33,9 +33,11 @@
             flex-direction: column;
             div{
                 display: flex;
+                flex-direction: row;
+
                 align-items: center;
                 margin-bottom: 1.6rem;
-                min-height: 48vh;
+                height: 20vh;
                 width: 80vw;
 
             }
