@@ -4,6 +4,10 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: 1024px;
     justify-content: center;
+    &__itemTest{
+        display: flex;
+        flex-direction: column;
+    }
     div{
         display: flex;
         flex-direction: column;

@@ -3,18 +3,21 @@ import { WhatsApp } from '@/components/Buttons/whatsapp';
 import { useNavigate } from 'react-router-dom';
 import { Plano } from 'types/IPlano';
 import styles from './Item.module.scss'
+import { PlanoPage } from 'pages/Plano';
+import planos from '@/data/planos.json'
 
-export function Item(plano: Plano){
+export function Item({ acomodacao}:{ acomodacao: string}){
     const navigate = useNavigate()
-    const {id, title, description} = plano
+    
     return(
         <div
             className={styles.item}
-            onClick={()=>navigate(`/planos/${id}`)}>
-            <h1>{title}</h1>
-            <p>{description}</p>
-
-            <WhatsApp {...plano} />
+            // onClick={()=>navigate(`/planos/${id}`)}    
+        >
+            <span>
+                {acomodacao}
+            </span>
+            {/* <WhatsApp {...plano} /> */}
         </div>
 
     )

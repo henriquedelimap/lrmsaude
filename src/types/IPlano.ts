@@ -2,9 +2,9 @@ export interface Plano{
     id: number
     title: string
     description: string
-    minAge: number
-    maxAge: number
+    age: [string[]]
     coParticipation: string
+    acomodacao: string[]
     obstetria: boolean
     category: {
         id: number

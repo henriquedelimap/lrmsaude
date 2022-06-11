@@ -1,68 +1,19 @@
 [
     {
         "id": 1,
-        "title": "naciona flex",
-        "description": "",
-        "Age": [0, 18],
-        "coParticipation": "indiferente",
-        "obstetria": true,
-        "category": {
-            "id": 1,
-            "label": "bradescoSaude",
-            "operadora": "bradesco saúde",
-            "administradora": "AllCare",
-            "ramo": "saúde",
-            "modalidade": "adesão"
-        }
-    },
-    {
-        "id": 2,
-        "title": "top nacional",
-        "description": "",
-        "Age": [0, 18],
-        "coParticipation": "indiferente",
-        "obstetria": true,
-        "category": {
-            "id": 1,
-            "label": "bradescoSaude",
-            "operadora": "bradesco saúde",
-            "administradora": "AllCare",
-            "ramo": "saúde",
-            "modalidade": "adesão"
-        }
-    },
-    {
-        "id": 3,
-        "title": "supreme",
-        "description": "",
-        "Age": [0, 18],
-        "coParticipation": "consultas, exames e internações",
-        "obstetria": true,
-        "category": {
-            "id": 2,
-            "label": "premiumsaude",
-            "operadora": "premium saúde",
-            "administradora": "Affix",
-            "ramo": "saúde",
-            "modalidade": ""
-        }
-    },
-    {
-        "id": 4,
         "title": "",
         "description": "",
-        "Age": [0, 18],
-        "acomodacao": "enfermaria",
-        "abrangencia": "municipal",
-        "coParticipation": "consultas, exames e internações",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59"]],
+        "acomodacao": ["enfermaria", "apartamento"],
+        "coParticipation": "indiferente",
         "obstetria": true,
         "category": {
-            "id": 2,
-            "label": "premiumsaude",
-            "operadora": "premium saúde",
-            "administradora": "Affix",
+            "id": 1,
+            "label": "bradescoSaude",
+            "operadora": "bradesco saúde",
+            "administradora": "AllCare",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "adesão"
         }
     }
 ]
