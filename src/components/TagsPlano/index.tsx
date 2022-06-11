@@ -8,7 +8,6 @@ export function TagsPlano(plano: Plano){
         <div className={styles.tags}>
                 {plano.category.operadora}
                 <span>
-                    {plano.minAge} - {plano.maxAge}
                 </span>
             <WhatsApp title={title} />
         </div>
