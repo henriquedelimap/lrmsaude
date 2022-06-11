@@ -31,9 +31,6 @@ export function PlanoPage(plano: Plano){
                 <span>
                     {plano.coParticipation}
                 </span>
-                <span>
-                    {plano.minAge} - {plano.maxAge}
-                </span>
             </div>
             <WhatsApp {...plano} />
         </div>
