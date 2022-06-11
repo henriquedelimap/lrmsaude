@@ -59,7 +59,7 @@ export const Imagens =
         {
             "img": foto8,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "unimedUberlandia",
             "title": "Unimed Uberlândia"
         },
         {
@@ -126,7 +126,7 @@ export const Imagens =
         {
             "img": foto8,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "unimedUberlandia",
             "title": "Unimed Uberlândia"
         },
         {

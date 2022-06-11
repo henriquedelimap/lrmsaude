@@ -9,8 +9,8 @@
         "obstetria": true,
         "category": {
             "id": 1,
-            "label": "bradescoSaude",
-            "operadora": "bradesco saúde",
+            "label": "unimedUberlandia",
+            "operadora": "Unimed Uberlândia",
             "administradora": "AllCare",
             "ramo": "saúde",
             "modalidade": "adesão"

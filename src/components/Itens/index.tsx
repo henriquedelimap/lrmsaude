@@ -14,7 +14,7 @@ export function Itens(props: Props) {
     const img = [...Imagens]
     let logo: string | undefined
     img.map((foto)=>{
-        if(foto.label === 'bradescoSaude'){
+        if(foto.label === 'unimedUberlandia'){
             return(
                 logo = foto.img
             )
