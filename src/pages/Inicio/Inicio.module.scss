@@ -7,7 +7,6 @@
 
     .titulo{
         h2{
-
             font-weight: 600;
             font-size: 1.4rem;
             font-style: italic;
@@ -22,20 +21,9 @@
             display: flex;
             flex-wrap: wrap;
             &__card{
-                box-shadow: 0px 0px .8rem $shadow;
+                box-shadow: 0px 0px .32rem $shadow;
                 border-radius: 1.2rem;
                 cursor: pointer;
-                transition: all .3s ease;
-                &::after{
-                    position: absolute;
-    
-                    background-color: blue;
-                    clip-path: circle(50%);
-                }
-                &:hover{
-                    clip-path: circle(100%);
-    
-                }
             }
         }
     }
@@ -56,8 +44,15 @@
                         margin-bottom: 3.2rem;
                         width: 92%;
                         height: 24rem;
-                        padding: 3.2rem 2.4
-                        rem;
+                        padding: 3.2rem 2.4rem;
+                        display: flex;
+                        justify-content: center;
+                        div{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
                     }
                     &__card:nth-child(2){
                         display: none;

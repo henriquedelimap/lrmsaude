@@ -5,12 +5,15 @@ import styles from './Planos.module.scss'
 export function Planos(){
     const [ordenador, setOrdenador] = useState('')
     return (
-        <div>
+        <div className={styles.planos}>
             <Ordenador
                 ordenador={ordenador}
                 setOrdenador={setOrdenador}
             />
-            <h2 className={styles.titulo}>planos de saúde</h2>
+            <span className={styles.titulo}>
+                <h2>planos de saúde</h2>
+
+            </span>
             <Itens ordenador={ordenador} />
         </div>
     )

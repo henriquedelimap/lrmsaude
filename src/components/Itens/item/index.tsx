@@ -1,4 +1,5 @@
 import { TagsPlano } from '@/components/TagsPlano';
+import { WhatsApp } from '@/components/Buttons/whatsapp';
 import { useNavigate } from 'react-router-dom';
 import { Plano } from 'types/IPlano';
 import styles from './Item.module.scss'
@@ -13,7 +14,7 @@ export function Item(plano: Plano){
             <h1>{title}</h1>
             <p>{description}</p>
 
-            <TagsPlano {...plano} />
+            <WhatsApp {...plano} />
         </div>
 
     )

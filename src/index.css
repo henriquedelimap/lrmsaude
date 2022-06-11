@@ -29,7 +29,7 @@ code {
   width: 100vw;
   overflow: hidden;
   display: grid;
-  grid-template-rows: 6.4rem auto 6.4rem;
+  grid-template-rows: 6.4rem auto auto;
 }
 
 

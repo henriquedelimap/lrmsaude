@@ -14,7 +14,7 @@ export function Itens(props: Props){
     const {ordenador} = props
 
     return(
-        <div>
+        <div className={styles.itens}>
             {
                 planos.map((plano: JSX.IntrinsicAttributes & Plano)=>(
                     <Item

@@ -1,6 +1,7 @@
 import filtro from "@/data/filtro.json"
 import { IFiltro } from "types/IPlano"
 import { SelectOption } from "./SelectOption"
+import styles from './Ordenador.module.scss'
 
 export function Ordenador(){
     
@@ -14,7 +15,7 @@ export function Ordenador(){
             let entidade= item.entidade
             let idade = item.idade
             return (
-                <>
+                <div className={styles.ordenador}>
                     <SelectOption {...planos}/>
                     <SelectOption {...acomodacao}/>
                     <SelectOption {...abrangencia}/>
@@ -28,7 +29,7 @@ export function Ordenador(){
                         }
                     </select>
                     
-                </>
+                </div>
             )
         })
     )
