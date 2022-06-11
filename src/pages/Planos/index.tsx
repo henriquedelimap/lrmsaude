@@ -6,10 +6,10 @@ export function Planos(){
     const [ordenador, setOrdenador] = useState('')
     return (
         <div className={styles.planos}>
-            <Ordenador
+            {/* <Ordenador
                 ordenador={ordenador}
                 setOrdenador={setOrdenador}
-            />
+            /> */}
             <span className={styles.titulo}>
                 <h2>planos de saúde</h2>
 

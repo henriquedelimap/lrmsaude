@@ -10,7 +10,7 @@ export function Inicio(){
         <>
         <Header />
         <section className={styles.home}>
-            <Recomendados />
+            {/* <Recomendados /> */}
             <Operadoras />
             <Comparativo />
         </section>
