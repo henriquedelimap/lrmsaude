@@ -76,8 +76,9 @@
         }
     }
     &__lista{
-        height: 100vh;
+        height: auto;
         background-color: $azul;
+        padding-bottom: 3.2rem;
         &__itens{
             padding: 0 .8rem;
 
@@ -88,9 +89,9 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    padding: 0 .4rem;
                     &__text{
-                        font-size: 1.2rem;
+                        padding: 0 .4rem;
+                        font-size: 1.4rem;
                     }
                     &__icone{
                         border: 1px solid $azul-text;
@@ -117,7 +118,7 @@
                     }
                 }
                 &__description{
-                    display: none;                    
+                    display: none; 
                     &--ativa{
                         padding: .8rem 0;
                         display: block;
