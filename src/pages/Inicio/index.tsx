@@ -13,7 +13,7 @@ import classNames from 'classnames';
 import uniqid from 'uniqid';
 
 export function Inicio(){
-    const [ativaItem, setAtivaItem] = useState(false)
+    const [ativaItem, setAtivaItem] = useState('')
 
     const text = {title: 'hello', to: '/'}
     return(
