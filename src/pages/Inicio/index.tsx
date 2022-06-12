@@ -11,6 +11,10 @@ export function Inicio(){
         <Header />
         <section className={styles.home}>
             {/* <Recomendados /> */}
+            <div className={styles.home__txt}>
+                <span className={styles.home__txt__subtitle}>planos para todas necessidades</span>
+                <span className={styles.home__txt__title}>contamos com planos de saúde para pequenas ou grandes necessidades</span>
+            </div>
             <Operadoras />
             {/* <Comparativo /> */}
         </section>
