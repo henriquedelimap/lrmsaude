@@ -8,12 +8,12 @@ import { GiHealthPotion } from 'react-icons/gi';
 import { HiOutlineArrowCircleRight } from 'react-icons/hi';
 
 import { Voltar } from '@/components/Buttons/default';
-import { useState } from 'react';
+import { SetStateAction, useState } from 'react';
 import classNames from 'classnames';
 import uniqid from 'uniqid';
 
 export function Inicio(){
-    const [ativaItem, setAtivaItem] = useState('')
+    const [ativaItem, setAtivaItem] = useState< SetStateAction<string> | SetStateAction<string> | undefined>()
 
     const text = {title: 'hello', to: '/'}
     return(

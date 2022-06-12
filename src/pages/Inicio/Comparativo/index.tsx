@@ -1,10 +1,10 @@
 import { Categorias } from '@/components/Categorias'
 import classNames from 'classnames'
-import { useState } from 'react'
+import { SetStateAction, useState } from 'react'
 import styles from '../Inicio.module.scss'
 import uniqid from 'uniqid'
 interface Prop {
-    ativaItem: string
+    ativaItem: SetStateAction<string> | undefined
     setAtivaItem: React.Dispatch<React.SetStateAction<string>>
     title: string
     description: string
