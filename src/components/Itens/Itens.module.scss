@@ -5,13 +5,13 @@
     max-width: 1024px;
     justify-content: center;
 
-    &__item{
+    &__plano{
         cursor: pointer;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 32rem;
+        height: 24rem;
         box-shadow: 0px 0px .32rem $shadow;
         border-radius: 1.2rem;
         margin: 1.6rem;
@@ -24,6 +24,28 @@
                 display: none;
             }
         }
+        &__text{
+            height: 6.4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &__button{
+                border: none;
+                cursor: pointer;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                span{
+                    margin-right: .8rem;
+                    font-size: .8rem;
+                    font-weight: 600;
+                }
+                &__icone{
+                    font-size: 1.6rem;    
+                }
+            }
+        }
     }
     @media screen and (max-width: 1024px){
         &{
@@ -31,15 +53,19 @@
             padding: 0rem .8em;
             display: flex;
             flex-direction: column;
-            div{
+            &__plano{
                 display: flex;
                 flex-direction: row;
-
+                height: 12rem;
                 align-items: center;
                 margin: 0;
                 margin-bottom: 1.6rem;
-                height: 20vh;
                 width: 92vw;
+                &__text{
+                    align-items: flex-end;
+                    
+                }
+
             }
         }
     }

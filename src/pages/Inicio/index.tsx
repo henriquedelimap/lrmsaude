@@ -16,10 +16,12 @@ export function Inicio(){
         <Header />
         <section className={styles.home}>
             {/* <Recomendados /> */}
+
             <div className={styles.home__txt}>
                 <span className={styles.home__txt__subtitle}>pensou em planos, pensou em LRM saúde</span>
                 <span className={styles.home__txt__title}>contamos com planos de saúde para pequenas ou grandes necessidades</span>
             </div>
+
             <div className={styles.home__cards}>
                 <div className={styles.home__cards__card}>
                     <GiHealthPotion className={styles.home__cards__card__icone} />
@@ -41,6 +43,14 @@ export function Inicio(){
                 </div>
             </div>
             <Operadoras />
+
+            
+            <div className={styles.home__lista}>
+                <div className={styles.home__txt}>
+                    <span className={styles.home__txt__subtitle}>compare e conheça</span>
+                    <span className={styles.home__txt__title}>a solução perfeita para sua saúde</span>
+                </div>
+            </div>
             {/* <Comparativo /> */}
         </section>
         </>

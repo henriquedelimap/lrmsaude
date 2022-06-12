@@ -5,6 +5,7 @@ import { Item } from './item'
 import { Plano } from 'types/IPlano'
 import { Imagens } from '@/assets/Imagens.tsx'
 import { useNavigate } from 'react-router-dom'
+import { HiOutlineArrowCircleRight } from 'react-icons/hi'
 
 
 
@@ -23,12 +24,18 @@ export function Itens(props: Props) {
       {
         planos.map((plano: JSX.IntrinsicAttributes & Plano) => (
           <div
-            className={styles.itens__item} 
+            className={styles.itens__plano} 
             onClick={()=>navigate(`${plano.category.id}`)}>
             {img.map((foto) => (
               foto.label === plano.category.label ? <img src={foto.img} /> : ''
             ))}
-            <span>{plano.category.operadora}</span>
+            <div className={styles.itens__plano__text}>
+              <span>{plano.category.operadora}</span>
+              <button className={styles.itens__plano__text__button}>
+                        <span>Conheça mais</span>
+                        <HiOutlineArrowCircleRight className={styles.home__cards__card__button__icone} />
+              </button>
+            </div>
           </div>
         ))
       }
