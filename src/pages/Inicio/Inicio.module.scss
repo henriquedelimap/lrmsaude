@@ -81,22 +81,21 @@
         padding-bottom: 3.2rem;
         &__itens{
             padding: 0 .8rem;
-
             &__item{
                 border-bottom: 1px solid $shadow;
-                padding: .8rem 0;
+                padding: 1.2rem 0;
+                margin-bottom: 1.2rem;
                 &__title{
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     &__text{
-                        padding: 0 .4rem;
+                        padding: 0 1.2rem 0 .4rem;
                         font-size: 1.4rem;
                     }
                     &__icone{
                         border: 1px solid $azul-text;
-                        height: 1.8rem;
-                        width: 1.8rem;
+                        padding: 1.2rem .2rem;
                         border-radius: 5rem;
                         cursor: pointer;
                         display: flex;
