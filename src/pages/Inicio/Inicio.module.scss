@@ -78,6 +78,53 @@
     &__lista{
         height: 100vh;
         background-color: $azul;
+        &__itens{
+            padding: 0 .8rem;
+
+            &__item{
+                border-bottom: 1px solid $shadow;
+                padding: .8rem 0;
+                &__title{
+                    display: flex;
+                    justify-content: space-between;
+                    &__text{
+                        font-size: 1.2rem;
+                    }
+                    &__icone{
+                        border: 1px solid $azul-text;
+                        height: 1.8rem;
+                        width: 1.8rem;
+                        border-radius: 5rem;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &__rect{
+                            display: flex;
+                            width: 1.2rem;
+                            height: .16rem;
+                            border-radius: 1rem;
+                            background-color: $azul-text;
+                            &:nth-child(1){
+                                position: absolute;
+                            }
+                            &:nth-child(2){
+                                transform: rotate(-90deg);
+                            }
+                        }
+                    }
+                }
+                &__description{
+                    display: none;                    
+                    &--ativa{
+                        padding: .8rem 0;
+                        display: block;
+                    }
+                }
+            }
+
+
+        }
     }
     
 
