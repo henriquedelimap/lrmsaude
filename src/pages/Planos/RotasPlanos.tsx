@@ -2,7 +2,7 @@ import { DefaultPage } from '@/pages/DefaultPage'
 import { NotFound } from '@/pages/NotFound'
 import { Route, Routes, useParams } from 'react-router-dom'
 import planos from '@/data/planos.json'
-import {Button} from '@/components/Buttons/default'
+import {Voltar} from '@/components/Buttons/Voltar'
 import { Previous } from '@/components/Buttons/next-previous'
 import { Next } from '@/components/Buttons/next-previous'
 import { PlanoPage } from '@/pages/Plano'
@@ -23,7 +23,7 @@ export function RotasPlanos() {
             <Route path='*' element={<DefaultPage />}>
                 <Route index element={
                     <>
-                        <Button {...button} />
+                        <Voltar {...button} />
                         <PlanoPage {...plano} />
                     </>
                 } />
