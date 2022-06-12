@@ -57,12 +57,12 @@ export function Inicio(){
 
                 <div className={styles.home__lista__itens}>
                     <div className={styles.home__lista__itens__item}>
-                        <div className={styles.home__lista__itens__item__title}>
+                        <div 
+                            className={styles.home__lista__itens__item__title}
+                            onClick={()=>setAtivaItem(!ativaItem)}
+                        >
                             <h4 className={styles.home__lista__itens__item__title__text}>plano de saúde individual ou coletivo por Adesão</h4>
-                            <span 
-                                className={styles.home__lista__itens__item__title__icone}
-                                onClick={()=>setAtivaItem(!ativaItem)}
-                            >
+                            <span className={styles.home__lista__itens__item__title__icone}>
                                 <span className={styles.home__lista__itens__item__title__icone__rect} />
                                 <span className={styles.home__lista__itens__item__title__icone__rect} />
                             </span>
