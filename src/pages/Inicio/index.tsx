@@ -10,6 +10,7 @@ import { HiOutlineArrowCircleRight } from 'react-icons/hi';
 import { Voltar } from '@/components/Buttons/default';
 import { useState } from 'react';
 import classNames from 'classnames';
+import uniqid from 'uniqid';
 
 export function Inicio(){
     const [ativaItem, setAtivaItem] = useState(false)
@@ -55,76 +56,28 @@ export function Inicio(){
                     <span className={styles.home__txt__title}>a solução perfeita para sua saúde</span>
                 </div>
 
-                <div className={styles.home__lista__itens}>
-                    <div className={styles.home__lista__itens__item}>
-                        <div 
-                            className={styles.home__lista__itens__item__title}
-                            onClick={()=>setAtivaItem(!ativaItem)}
-                        >
-                            <h4 className={styles.home__lista__itens__item__title__text}>planos de saúde individual ou coletivo por Adesão</h4>
-                            <span className={styles.home__lista__itens__item__title__icone}>
-                                <span className={styles.home__lista__itens__item__title__icone__rect} />
-                                <span className={styles.home__lista__itens__item__title__icone__rect} />
-                            </span>
-                        </div>
-                        <p className={classNames({
-                            [styles.home__lista__itens__item__description]: true,
-                            [styles[`home__lista__itens__item__description--ativa`]]: ativaItem,
-                            })}
-                        > 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!
-                        </p>
-                    </div>
-                </div>
-
-
-                <div className={styles.home__lista__itens}>
-                    <div className={styles.home__lista__itens__item}>
-                        <div 
-                            className={styles.home__lista__itens__item__title}
-                            onClick={()=>setAtivaItem(!ativaItem)}
-                        >
-                            <h4 className={styles.home__lista__itens__item__title__text}>planos de saúde empresariais</h4>
-                            <span className={styles.home__lista__itens__item__title__icone}>
-                                <span className={styles.home__lista__itens__item__title__icone__rect} />
-                                <span className={styles.home__lista__itens__item__title__icone__rect} />
-                            </span>
-                        </div>
-                        <p className={classNames({
-                            [styles.home__lista__itens__item__description]: true,
-                            [styles[`home__lista__itens__item__description--ativa`]]: ativaItem,
-                            })}
-                        > 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!
-                        </p>
-                    </div>
-                </div>
-
-
-
-                <div className={styles.home__lista__itens}>
-                    <div className={styles.home__lista__itens__item}>
-                        <div 
-                            className={styles.home__lista__itens__item__title}
-                            onClick={()=>setAtivaItem(!ativaItem)}
-                        >
-                            <h4 className={styles.home__lista__itens__item__title__text}>planos odontológicos</h4>
-                            <span className={styles.home__lista__itens__item__title__icone}>
-                                <span className={styles.home__lista__itens__item__title__icone__rect} />
-                                <span className={styles.home__lista__itens__item__title__icone__rect} />
-                            </span>
-                        </div>
-                        <p className={classNames({
-                            [styles.home__lista__itens__item__description]: true,
-                            [styles[`home__lista__itens__item__description--ativa`]]: ativaItem,
-                            })}
-                        > 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!
-                        </p>
-                    </div>
-                </div>
+                <Comparativo 
+                    ativaItem={ativaItem} 
+                    setAtivaItem={setAtivaItem} 
+                    title={'planos de saúde individual ou coletivo por Adesão'} 
+                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!'}
+                    id={uniqid()}
+                />
+                <Comparativo 
+                    ativaItem={ativaItem} 
+                    setAtivaItem={setAtivaItem} 
+                    title={'planos de saúde empresariais'} 
+                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!'}
+                    id={uniqid()}
+                />
+                <Comparativo 
+                    ativaItem={ativaItem} 
+                    setAtivaItem={setAtivaItem} 
+                    title={'planos odontológicos'} 
+                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!'}
+                    id={uniqid()}
+                />
             </div>
-            {/* <Comparativo /> */}
         </section>
         </>
     )
