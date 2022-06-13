@@ -34,5 +34,169 @@
             "ramo": "saúde",
             "modalidade": "adesão"
         }
+    },
+    {
+        "id": 3,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": ["enfermaria", "apartamento"],
+        "abrangencia":[""],
+        "coParticipation": ["indiferente", "consultas, exames e internações"],
+        "obstetria": true,
+        "category": {
+            "id": 3,
+            "label": "premiumsaude",
+            "operadora": "Premium Saúde",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 4,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": ["enfermaria", "apartamento"],
+        "abrangencia":[""],
+        "coParticipation": ["indiferente", "consultas, exames e internações"],
+        "obstetria": true,
+        "category": {
+            "id": 4,
+            "label": "segurosUnimed",
+            "operadora": "Seguros Unimed",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 5,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 5,
+            "label": "SFsaude",
+            "operadora": "SF Saúde",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 6,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 6,
+            "label": "SulAmericaSaude",
+            "operadora": "SulAmérica Saúde",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 7,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 7,
+            "label": "unimedBH",
+            "operadora": "Unimed Bello Horizonte",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 8,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 8,
+            "label": "unimedUberlandia",
+            "operadora": "Unimed Uberlândia",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 9,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 9,
+            "label": "usiSaude",
+            "operadora": "Usi Saúde",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 10,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 10,
+            "label": "youSaude",
+            "operadora": "You Saúde",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
+    },
+    {
+        "id": 11,
+        "title": [""],
+        "description": "",
+        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
+        "acomodacao": [""],
+        "abrangencia":[""],
+        "coParticipation": [""],
+        "obstetria": true,
+        "category": {
+            "id": 11,
+            "label": "notredame",
+            "operadora": "Grupo NotreDame Intermédica Minas",
+            "administradora": "",
+            "ramo": "saúde",
+            "modalidade": ""
+        }
     }
+    
+    
 ]

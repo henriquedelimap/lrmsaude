@@ -35,25 +35,25 @@ export const Imagens =
         {
             "img": foto4,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "segurosUnimed",
             "title": "Seguros Unimed"
         },
         {
             "img": foto5,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "SFsaude",
             "title": "SF Saúde"
         },
         {
             "img": foto6,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "SulAmericaSaude",
             "title": "SulAmérica Saúde"
         },
         {
             "img": foto7,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "unimedBH",
             "title": "Unimed Bello Horizonte"
         },
         {
@@ -65,13 +65,13 @@ export const Imagens =
         {
             "img": foto9,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "usiSaude",
             "title": "Usi Saúde"
         },
         {
             "img": foto10,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "youSaude",
             "title": "You Saúde"
         },
         {
@@ -102,25 +102,25 @@ export const Imagens =
         {
             "img": foto4,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "segurosUnimed",
             "title": "Seguros Unimed"
         },
         {
             "img": foto5,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "SFsaude",
             "title": "SF Saúde"
         },
         {
             "img": foto6,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "SulAmericaSaude",
             "title": "SulAmérica Saúde"
         },
         {
             "img": foto7,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "unimedBH",
             "title": "Unimed Bello Horizonte"
         },
         {
@@ -132,13 +132,13 @@ export const Imagens =
         {
             "img": foto9,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "usiSaude",
             "title": "Usi Saúde"
         },
         {
             "img": foto10,
             "id":  Math.random() * 100,
-            "label": "seguros unimed",
+            "label": "youSaude",
             "title": "You Saúde"
         },
         {
