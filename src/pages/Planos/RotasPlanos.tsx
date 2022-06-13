@@ -3,9 +3,8 @@ import { NotFound } from '@/pages/NotFound'
 import { Route, Routes, useParams } from 'react-router-dom'
 import planos from '@/data/planos.json'
 import {Voltar} from '@/components/Buttons/Voltar'
-import { Previous } from '@/components/Buttons/next-previous'
-import { Next } from '@/components/Buttons/next-previous'
 import { PlanoPage } from '@/pages/Plano'
+import { ScrollToTop } from '@/components/Wrapper/ScrollToTop'
 
 export function RotasPlanos() {
     const { id } = useParams()
@@ -17,18 +16,23 @@ export function RotasPlanos() {
             <NotFound />
         )
     }
+
     const button = {title: 'planos', to: `planos`}
     return (
-        <Routes>
-            <Route path='*' element={<DefaultPage />}>
-                <Route index element={
-                    <>
-                        <Voltar {...button} />
-                        <PlanoPage {...plano} />
-                    </>
-                } />
-            </Route>
-        </Routes>
+        <ScrollToTop>
+            <Routes>
+                <Route path='*' element={<DefaultPage />}>
+                    <Route index element={
+                        <>
+                            <Voltar {...button} />
+                            <PlanoPage {...plano} />
+                        </>
+                    } />
+                </Route>
+            </Routes>
+        </ScrollToTop>
     )
 
 }
+
+
