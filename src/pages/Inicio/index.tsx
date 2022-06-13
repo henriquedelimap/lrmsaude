@@ -4,7 +4,7 @@ import { Operadoras } from './Operadoras';
 import { Comparativo } from './Comparativo';
 import { MdHealing } from 'react-icons/md';
 import { GiHealthPotion } from 'react-icons/gi';
-import { HiOutlineArrowCircleRight } from 'react-icons/hi';
+import { HiOutlineArrowRight } from 'react-icons/hi';
 import { SetStateAction, useState } from 'react';
 import uniqid from 'uniqid';
 import { Title } from './Title';
@@ -26,16 +26,16 @@ export function Inicio(){
                         <h3 className={styles.home__cards__card__title}>planos individuais</h3>
                         <p className={styles.home__cards__card__description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis molestias officia assumenda autem magni eos saepe iusto temporibus, adipisci nihil.</p>
                         <button className={styles.home__cards__card__button}>
-                            <HiOutlineArrowCircleRight className={styles.home__cards__card__button__icone} />
+                            <HiOutlineArrowRight className={styles.home__cards__card__button__icone} />
                             <span>Conheça mais</span>
                         </button>
                     </div>
                     <div className={styles.home__cards__card}>
-                        <MdHealing className={styles.home__cards__card__icone} />
-                        <h3 className={styles.home__cards__card__title}>planos empresariais</h3>
+                        <MdHealing className={styles.home__cards__card__icone} color="white" />
+                        <h3 className={styles.home__cards__card__title} >planos empresariais</h3>
                         <p className={styles.home__cards__card__description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis molestias officia assumenda autem magni eos saepe iusto temporibus, adipisci nihil.</p>
                         <button className={styles.home__cards__card__button}>
-                            <HiOutlineArrowCircleRight className={styles.home__cards__card__button__icone} />
+                            <HiOutlineArrowRight className={styles.home__cards__card__button__icone} />
                             <span>Conheça mais</span>
                         </button>
                     </div>
