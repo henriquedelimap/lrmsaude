@@ -5,7 +5,7 @@ import { Item } from './item'
 import { Plano } from 'types/IPlano'
 import { Imagens } from '@/assets/Imagens.tsx'
 import { useNavigate } from 'react-router-dom'
-import { HiOutlineArrowCircleRight } from 'react-icons/hi'
+import { HiOutlineArrowRight } from 'react-icons/hi'
 
 
 
@@ -33,7 +33,8 @@ export function Itens(props: Props) {
               <span>{plano.category.operadora}</span>
               <button className={styles.itens__plano__text__button}>
                         <span>Conheça mais</span>
-                        <HiOutlineArrowCircleRight className={styles.home__cards__card__button__icone} />
+                        <HiOutlineArrowRight className={styles.itens__plano__text__button__icone} />
+
               </button>
             </div>
           </div>
