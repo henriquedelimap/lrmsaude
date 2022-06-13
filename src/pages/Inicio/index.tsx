@@ -31,7 +31,7 @@ export function Inicio(){
                         </button>
                     </div>
                     <div className={styles.home__cards__card}>
-                        <MdHealing className={styles.home__cards__card__icone} color="white" />
+                        <MdHealing className={styles.home__cards__card__icone} />
                         <h3 className={styles.home__cards__card__title} >planos empresariais</h3>
                         <p className={styles.home__cards__card__description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis molestias officia assumenda autem magni eos saepe iusto temporibus, adipisci nihil.</p>
                         <button className={styles.home__cards__card__button}>
