@@ -25,7 +25,7 @@ export function Itens(props: Props) {
         planos.map((plano: JSX.IntrinsicAttributes & Plano) => (
           <div
             className={styles.itens__plano} 
-            onClick={()=>navigate(`${plano.category.id}`)}>
+            onClick={()=>navigate(`${plano.category.label}`)}>
             {img.map((foto) => (
               foto.label === plano.category.label ? <img src={foto.img} /> : ''
             ))}
