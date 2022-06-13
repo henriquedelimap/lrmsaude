@@ -5,6 +5,7 @@ import { Comparativo } from './Comparativo';
 import { MdHealing } from 'react-icons/md';
 import { GiHealthPotion } from 'react-icons/gi';
 import { HiOutlineArrowRight } from 'react-icons/hi';
+import { RiAccountPinCircleLine } from 'react-icons/ri';
 import { SetStateAction, useState } from 'react';
 import uniqid from 'uniqid';
 import { Title } from './Title';
@@ -70,6 +71,15 @@ export function Inicio(){
                         description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias tempora qui quidem quam repellat ipsum distinctio adipisci architecto perferendis!'}
                         id={uniqid()}
                     />
+                </div>
+
+                <div className={styles.home__contato}>
+                    <RiAccountPinCircleLine className={styles.home__contato__icone} />
+                    <div className={styles.home__contato__dados}>
+                        <h3 className={styles.home__contato__dados__name}>Luciano Mizael</h3>
+                        <span className={styles.home__contato__dados__telefone}>+55 (34) 99277-9461</span>
+                        <span className={styles.home__contato__dados__email}>lucianomizael@yahoo.com.br</span>
+                    </div>
                 </div>
             </section>
         </>
