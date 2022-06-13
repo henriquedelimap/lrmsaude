@@ -1,0 +1,17 @@
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin: 3.2rem 0;
+    &__tag {
+      margin: 0.4rem 0;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    &__title {
+      text-align: center;
+      font-size: 2rem;
+      padding: 0 2.4rem;
+      font-weight: 500;
+    }
+  }

@@ -2,8 +2,8 @@
 .menu{
     display: grid;
     grid-template-columns: .5fr 1fr .5fr;
-    padding: 2.4rem 3.2rem;
-    align-items: baseline;
+    padding: 0 3.2rem;
+    align-items: center;
     background-color: $azul-text;
     overflow: hidden;
     z-index: 10;
