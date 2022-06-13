@@ -9,6 +9,7 @@ import { RiAccountPinCircleLine } from 'react-icons/ri';
 import { SetStateAction, useState } from 'react';
 import uniqid from 'uniqid';
 import { Title } from './Title';
+import { Link } from 'react-router-dom';
 
 export function Inicio(){
     const [ativaItem, setAtivaItem] = useState< SetStateAction<string> | SetStateAction<string> | undefined>()
@@ -26,19 +27,23 @@ export function Inicio(){
                         <GiHealthPotion className={styles.home__cards__card__icone} />
                         <h3 className={styles.home__cards__card__title}>planos individuais</h3>
                         <p className={styles.home__cards__card__description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis molestias officia assumenda autem magni eos saepe iusto temporibus, adipisci nihil.</p>
-                        <button className={styles.home__cards__card__button}>
+                        <Link className={styles.home__cards__card__button}
+                        to={'/planos'}
+                        >
                             <HiOutlineArrowRight className={styles.home__cards__card__button__icone} />
                             <span>Conheça mais</span>
-                        </button>
+                        </Link>
                     </div>
                     <div className={styles.home__cards__card}>
                         <MdHealing className={styles.home__cards__card__icone} />
                         <h3 className={styles.home__cards__card__title} >planos empresariais</h3>
                         <p className={styles.home__cards__card__description}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis molestias officia assumenda autem magni eos saepe iusto temporibus, adipisci nihil.</p>
-                        <button className={styles.home__cards__card__button}>
+                        <Link className={styles.home__cards__card__button}
+                        to={'/planos'}
+                        >
                             <HiOutlineArrowRight className={styles.home__cards__card__button__icone} />
                             <span>Conheça mais</span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
