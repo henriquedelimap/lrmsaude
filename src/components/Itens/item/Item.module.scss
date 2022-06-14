@@ -157,6 +157,18 @@
                             align-items: center;
                             tr{
                                 &:last-child{
+                                    button{
+                                    
+                                        span{
+                                            color: $branco;
+                                            
+                                        }
+                                        
+                                        & path{
+                                            border: 1.6px solid white;
+                                            color: $tex-azul;
+                                        }
+                                    }
                                 }
                             }
                         }
