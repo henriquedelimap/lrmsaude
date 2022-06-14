@@ -1,11 +1,9 @@
 import styles from './Itens.module.scss'
 import planos from '@/data/planos.json'
-import { Key, useState } from 'react'
-import { Item } from './item'
 import { Plano } from 'types/IPlano'
 import { Imagens } from '@/assets/Imagens.tsx'
 import { useNavigate } from 'react-router-dom'
-import { HiOutlineArrowRight } from 'react-icons/hi'
+import { SaibaMais } from '@/components/Buttons/saibaMais'
 
 
 
@@ -31,11 +29,7 @@ export function Itens(props: Props) {
             ))}
             <div className={styles.itens__plano__text}>
               <span>{plano.category.operadora}</span>
-              <button className={styles.itens__plano__text__button}>
-                        <span>Conheça mais</span>
-                        <HiOutlineArrowRight className={styles.itens__plano__text__button__icone} />
-
-              </button>
+              <SaibaMais />
             </div>
           </div>
         ))

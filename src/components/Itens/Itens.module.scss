@@ -2,7 +2,7 @@
 .itens{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1024px;
+    width: 1024px;
     justify-content: center;
 
     &__plano{
@@ -30,30 +30,7 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            &__button{
-                border: none;
-                cursor: pointer;
-                background-color: transparent;
-                display: flex;
-                align-items: center;
-                span {
-                margin-right: 0.4rem;
-                font-size: .8rem;
-                font-weight: 400;
-                color: $azul-text;
-                }
-                &__icone{
-                    font-size: 1rem;
-                    border: 1.6px solid $azul-text;
-                    border-radius: 50rem;
-                    padding: .08rem;
-                    color: $azul-text;
-
-                    & path{
-                        color: $azul-text;
-                    }   
-                }
-            }
+            
         }
     }
     @media screen and (max-width: 1024px){

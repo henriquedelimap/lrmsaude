@@ -1,18 +1,16 @@
-import { TagsPlano } from '@/components/TagsPlano';
-import { WhatsApp } from '@/components/Buttons/whatsapp';
-import { useNavigate } from 'react-router-dom';
 import { Plano } from 'types/IPlano';
 import styles from './Item.module.scss'
-import { PlanoPage } from 'pages/Plano';
-import planos from '@/data/planos.json'
 import { Imagens } from '@/assets/Imagens.tsx'
 import uniqid from 'uniqid'
+import { SetStateAction, useState } from 'react';
+import { ItemContent } from './Content';
 
 export function Item(plano: Plano){
-
+  const [flipCard, setFlipCard] = useState< SetStateAction<string> | SetStateAction<string> | undefined>()
     const img = [...Imagens]
-
-    // const navigate = useNavigate()
+    let ID = uniqid()
+    
+    
     
     return(
         <div className={styles.itemContainer}>
@@ -22,23 +20,19 @@ export function Item(plano: Plano){
               plano.abrangencia.map((abrangencia) => (
                 plano.coParticipation.map((coparticipacao) => (
                   plano.acomodacao.map((acomodacao) => (
-                    plano.title.map((titulo, index) => (
-                      <div
-                        className={styles.item}
-                        key={uniqid()}
-                      >
-                        {img.map((foto) => (
-                          foto.label === plano.category.label ? <img src={foto.img} /> : ''
-                        ))}
-                        <span>{titulo}</span>
-                        <span>{plano.category.operadora}</span>
-
-                        <span>{plano.category.ramo}</span>
-                        <span>{coparticipacao}</span>
-                        <span>{abrangencia}</span>
-                        <span>{idade[0]} - {idade[1]}</span>
-                        <span>{acomodacao}</span>
-                      </div>
+                    plano.title.map((titulo) => (
+                      <ItemContent
+                        plano={plano}
+                        idade={idade}
+                        abrangencia={abrangencia}
+                        coparticipacao={coparticipacao}
+                        acomodacao={acomodacao}
+                        titulo={titulo}
+                        flipCard={flipCard}
+                        setFlipCard={setFlipCard}
+                        img={[...Imagens]}
+                        id={uniqid()}
+                      />
                     ))
 
                   ))

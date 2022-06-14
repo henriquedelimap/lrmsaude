@@ -9,6 +9,7 @@
     background-color: white;
 
     overflow: hidden;
+    z-index: 1000;
     &__box{
         position: fixed;
         overflow: hidden;

@@ -8,9 +8,8 @@ import { ScrollToTop } from '@/components/Wrapper/ScrollToTop'
 
 export function RotasPlanos() {
     const { id } = useParams()
-    const next = Number(id)
-    const previous = Number(id)
     const plano = planos.find((plano: {category: {label: string}}) => plano.category.label === id)
+    
     if (!plano) {
         return (
             <NotFound />

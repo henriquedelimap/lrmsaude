@@ -11,28 +11,28 @@ import { RotasPlanos } from '@/pages/Planos/RotasPlanos.tsx'
 import { Categoria } from '@/components/Categorias/Categoria'
 import { ScrollToTop } from '@/components/Wrapper/ScrollToTop'
 
-export function AppRouter(){
-    return(
-        <main className='container'>
-            <Router>
-                <Menu />
-                <ScrollToTop>
+export function AppRouter() {
+  return (
+    <main className='container'>
+      <Router>
+        <Menu />
+        <ScrollToTop>
 
 
-                <Routes>
-                    <Route path='/' element={<DefaultPage /> }>
-                        <Route path='/' element={<Inicio />}>
-                            <Route path='/:id/*' element={<Categoria />} />
-                        </Route>
-                        <Route path="planos" element={<Planos />} />
-                        <Route path="sobre" element={<Sobre />} />
-                    </Route>
-                    <Route path='*' element={<NotFound />} />
-                    <Route path='planos/:id/*' element={<RotasPlanos />} />
-                </Routes>
-                <Footer />
-                </ScrollToTop>
-            </Router>
-        </main>
-    )
+          <Routes>
+            <Route path='/' element={<DefaultPage />}>
+              <Route path='/' element={<Inicio />}>
+                <Route path='/:id/*' element={<Categoria />} />
+              </Route>
+              <Route path="planos" element={<Planos />} />
+              <Route path="sobre" element={<Sobre />} />
+            </Route>
+            <Route path='*' element={<NotFound />} />
+            <Route path='planos/:id/*' element={<RotasPlanos />} />
+          </Routes>
+          <Footer />
+        </ScrollToTop>
+      </Router>
+    </main>
+  )
 }

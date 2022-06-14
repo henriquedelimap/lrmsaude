@@ -18,7 +18,7 @@ export function Comparativo(prop: Prop) {
     return (
         <>
             {
-                itens.map((item) => {
+                itens.map((item) => { 
                     
                     return (
                         <div className={styles.lista__itens} key={item.id}>
