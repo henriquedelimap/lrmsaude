@@ -6,16 +6,10 @@
     justify-content: center;
     .item{
         cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         min-height: 64vh;
-
-        box-shadow: 0px 0px .32rem $shadow;
         border-radius: 1.2rem;
         margin: 1.6rem;
-        padding: 3.2rem 1.6rem;
+        
         &__flip{
             perspective: 1000px;
             width: 100%;
@@ -30,24 +24,30 @@
                 &__front{
                     width: 100%;
                     height: 100%;
+                    display: grid;
+                    grid-template-rows: 2fr repeat(4, .5fr) 2fr ;
+                    padding: 3.2rem 1.6rem;
+                    box-shadow: 0px 0px .16rem $shadow;
+                    background-color: $azul;
                     tr{
                         display: grid;
                         grid-template-columns: 1fr 1fr;
+                        box-shadow: 0px 0px .16rem $shadow;
+                        background-color: $branco;
                         align-items: center;
                         margin-bottom: 1.2rem;
-                        box-shadow: 0px 0px .16rem $shadow;
                         border-radius: .4rem;
                         th{                        
                             text-align: center;
+                            font-weight: 400;
                         }
                         td{
-                            padding: .4rem .8rem;
-                            background-color: $azul;
-
+                            padding: .8rem .8rem;
+                            font-weight: 300;
                             text-align: end;
                         }
                         img{
-                            max-width: 6.4rem;
+                            max-width: 4.8rem;
                             border-radius: 6.4rem;
                             box-shadow: 0px 0px .32rem $shadow;
 
@@ -59,19 +59,18 @@
                         }
                         &:first-child{
                             background-color: transparent;
-                            margin: 0 auto;
-                            padding: 0;
                             display: flex;
-                            margin-bottom: 3.2rem;
                             box-shadow: none;
                             background-color: transparent;
+                            display: flex;
+                            justify-content: flex-start;
+                            padding-bottom: 1.6rem;
                         }
                         &:last-child{
                             margin: 0;
                             background-color: transparent;
                             box-shadow: none;
                             padding: 0;
-                            margin-top: .8rem;
                             display: flex;
                             align-items: center;
                             justify-content: flex-end;
@@ -91,6 +90,8 @@
                     position: absolute;
                     display: grid;
                     grid-template-rows: auto;
+                    box-shadow: 0px 0px .16rem $shadow;
+                    border-radius: 1.2rem;
                     width: 100%;
                     height: 100%;
                     -webkit-backface-visibility: hidden;
@@ -102,10 +103,10 @@
                 }
                 @keyframes flipCard{
                     0%{
-                        transform: rotateX(0deg);
+                        transform: rotateY(0deg);
                     }
                     100%{
-                        transform: rotateX(180deg);
+                        transform: rotateY(180deg);
                     }
                 
                 }
@@ -126,13 +127,19 @@
             flex-direction: column;
             width: 92vw;
             .item{
+                box-shadow: 0px 0px .32rem $shadow;
+
                 margin-bottom: 1.6rem;
                 &__flip{
+                    &__inner{
 
-                    &__front{
                         
-                        display: flex;
-                        align-items: center;
+                        &__front{
+                            box-shadow: none;
+                        box-shadow: 0px 0px .16rem $shadow;
+                            
+                            align-items: center;
+                        }
                     }
                 }
             }
