@@ -14,6 +14,7 @@ export interface Plano{
         administradora: string
         ramo: string
         modalidade: string
+        paleta: string[]
     }
 }
 export interface Info{

@@ -78,9 +78,23 @@
                             td{
                                 background-color: transparent;
                                 white-space: nowrap;
-                            }
+                                button{
+                                    
+                                    span{
+                                        color: $branco;
+                                        
+                                    }
+                                    
+                                    & path{
+                                        border: 1.6px solid white;
+                                        color: $branco;
+                                    }
+                                }
+                                }
                         }
+                        
                     }
+                    
                     
                 }
                 &__back{

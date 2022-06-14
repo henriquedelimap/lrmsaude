@@ -21,18 +21,24 @@ export function Item(plano: Plano){
                 plano.coParticipation.map((coparticipacao) => (
                   plano.acomodacao.map((acomodacao) => (
                     plano.title.map((titulo) => (
-                      <ItemContent
-                        plano={plano}
-                        idade={idade}
-                        abrangencia={abrangencia}
-                        coparticipacao={coparticipacao}
-                        acomodacao={acomodacao}
-                        titulo={titulo}
-                        flipCard={flipCard}
-                        setFlipCard={setFlipCard}
-                        img={[...Imagens]}
-                        id={uniqid()}
-                      />
+                      plano.category.paleta.map((cor)=>{
+                        return(
+                          <ItemContent
+                            plano={plano}
+                            idade={idade}
+                            abrangencia={abrangencia}
+                            coparticipacao={coparticipacao}
+                            acomodacao={acomodacao}
+                            titulo={titulo}
+                            flipCard={flipCard}
+                            setFlipCard={setFlipCard}
+                            img={[...Imagens]}
+                            id={uniqid()}
+                            cor={cor}
+                          />
+                        )
+                        
+                        })
                     ))
 
                   ))

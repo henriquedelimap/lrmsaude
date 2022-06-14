@@ -7,14 +7,14 @@
     display: flex;
     align-items: center;
     span {
-    margin-right: 0.4rem;
-    font-size: .8rem;
-    font-weight: 400;
-    color: $azul-text;
+        margin-right: 0.4rem;
+        font-size: .8rem;
+        font-weight: 400;
+        color: $azul-text;
     }
     &__icone{
         font-size: 1rem;
-        border: 1.6px solid $azul-text;
+        border: 1.6px solid $branco; 
         border-radius: 50rem;
         padding: .08rem;
         color: $azul-text;

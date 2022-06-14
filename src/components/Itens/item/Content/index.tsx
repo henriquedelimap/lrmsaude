@@ -12,7 +12,8 @@ interface Prop{
     acomodacao: string
     titulo: string
     img: any[]
-    id: string
+    id: string,
+    cor: string
     flipCard: SetStateAction<string> | undefined
     setFlipCard: Dispatch<SetStateAction<string>>
 }
@@ -25,17 +26,24 @@ export function ItemContent({
     titulo, 
     img,
     id,
+    cor,
     flipCard, 
     setFlipCard}: Prop){
         const [ID, setID] = useState('')
+        
+        
     return(
         <div
             className={styles.item}
             key={id}
             >
             <div className={styles.item__flip}>
-                <div className={styles.item__flip__inner}>
+                <div
+                    className={styles.item__flip__inner}
+                    
+                >
                     <table 
+                        style={{backgroundColor: `#${cor}`}}
                         className={classNames({
                         [styles.item__flip__inner__front]: true,
                         [styles.ativa]: flipCard === ID

@@ -14,7 +14,8 @@
             "operadora": "Unimed Uberlândia",
             "administradora": "AllCare",
             "ramo": "saúde",
-            "modalidade": "adesão"
+            "modalidade": "adesão",
+            "paleta": ["02734A", "3E8C6F", "02733E", "84BFA4"]
         }
     },
     {
@@ -32,7 +33,8 @@
             "operadora": "RN Saúde",
             "administradora": "AllCare",
             "ramo": "saúde",
-            "modalidade": "adesão"
+            "modalidade": "adesão",
+            "paleta": ["2F3973", "F2293A", "214DA6", "C2E9F2"]
         }
     },
     {
@@ -50,7 +52,8 @@
             "operadora": "Premium Saúde",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["61428C", "A28EBF", "56BFAC", "4EBF9F"]
         }
     },
     {
@@ -68,7 +71,8 @@
             "operadora": "Seguros Unimed",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["11A0D9", "113859", "07B2D9", "70748C"]
         }
     },
     {
@@ -86,7 +90,8 @@
             "operadora": "SF Saúde",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["F2C53D", "D9A036", "048ABF", "0367A6"]
         }
     },
     {
@@ -104,7 +109,8 @@
             "operadora": "SulAmérica Saúde",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["192E59", "5D6C8C", "F2541B", "D9411E"]
         }
     },
     {
@@ -122,29 +128,12 @@
             "operadora": "Unimed Bello Horizonte",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["02734A", "3E8C6F", "02733E", "84BFA4"]
         }
     },
     {
         "id": 8,
-        "title": [""],
-        "description": "",
-        "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
-        "acomodacao": [""],
-        "abrangencia":[""],
-        "coParticipation": [""],
-        "obstetria": true,
-        "category": {
-            "id": 8,
-            "label": "unimedUberlandia",
-            "operadora": "Unimed Uberlândia",
-            "administradora": "",
-            "ramo": "saúde",
-            "modalidade": ""
-        }
-    },
-    {
-        "id": 9,
         "title": [""],
         "description": "",
         "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
@@ -158,11 +147,12 @@
             "operadora": "Usi Saúde",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["0477BF", "62ABD9", "24BFBF", "89D9D9"]
         }
     },
     {
-        "id": 10,
+        "id": 9,
         "title": [""],
         "description": "",
         "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
@@ -176,11 +166,12 @@
             "operadora": "You Saúde",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["022873", "F27F1B", "16498C", "88A0BF"]
         }
     },
     {
-        "id": 11,
+        "id": 10,
         "title": [""],
         "description": "",
         "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
@@ -194,11 +185,12 @@
             "operadora": "Grupo NotreDame Intermédica Minas",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["F28C0F", "3767A6", "595958", "F2C185"]
         }
     },
     {
-        "id": 12,
+        "id": 11,
         "title": [""],
         "description": "",
         "age": [["0", "18"], ["19", "23"], ["24", "28"], ["29","33"],["34","38"],["39", "43"], ["44", "48"], ["49","53"], ["54", "58"], ["59", "ou mais"]],
@@ -212,7 +204,8 @@
             "operadora": "Bradesco Saúde",
             "administradora": "",
             "ramo": "saúde",
-            "modalidade": ""
+            "modalidade": "",
+            "paleta": ["BF0426", "D91E41", "D95B72", "BF0404"]
         }
     }
     
