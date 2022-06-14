@@ -157,11 +157,14 @@
                             align-items: center;
                             tr{
                                 &:last-child{
-                                    button{
-                                    
-                                        span{
-                                            color: $tex-azul;
+                                    td{
+
+                                        button{
                                             
+                                            span{
+                                                color: $tex-azul;
+                                                
+                                            }
                                         }
                                         
                                         & path{
