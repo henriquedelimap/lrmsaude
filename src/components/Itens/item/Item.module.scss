@@ -142,17 +142,17 @@
       .item {
         margin: 0 auto;
         width: 92%;
-        margin-bottom: 1.6rem;
         height: 100%;
         &__flip {
           height: 94vh;
+          margin-bottom: 2.4rem;
           &__inner {
             &__front {
               box-shadow: none;
 
               align-items: center;
               tr {
-                margin-bottom: .8rem;
+                margin-bottom: 1.2rem;
                 &:last-child {
                   td {
                     
