@@ -145,12 +145,13 @@
       .item {
         margin: 0 auto;
         width: 92%;
-        height: 100%;
+        margin-bottom: 1.2rem;
+        height: 38rem;
         &__flip {
-          height: 94vh;
-          margin-bottom: 2.4rem;
+          height: 100%;
           &__inner {
             &__front {
+              height: 100%;
               box-shadow: none;
               align-items: center;
               tr {
