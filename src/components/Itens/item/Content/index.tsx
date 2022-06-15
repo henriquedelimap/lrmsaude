@@ -56,8 +56,10 @@ export function ItemContent({
               ))}
             </tr>
             <tr>
-              <th>operadora</th>
-              <td>{plano.category.operadora}</td>
+              <th></th>
+              <td
+                style={{backgroundColor: `#${cor}`}}
+              >{plano.category.operadora}</td>
             </tr>
             <tr>
               <th>ramo</th>
