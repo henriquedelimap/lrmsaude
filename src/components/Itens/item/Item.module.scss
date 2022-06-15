@@ -68,15 +68,18 @@
               justify-content: flex-start;
               padding-bottom: 2.4rem;
             }
-            &:nth-child(2){
+            &:nth-child(1){
               box-shadow: none;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
               td{
+                box-shadow: 0rem 0rem .1rem .068rem $branco;
                 border-radius: 1.2rem 0 0 1.2rem;
                 font-weight: 900;
                 color: $branco;
-                margin-bottom: 2.4rem;
-                margin-top: -1.2rem;
                 white-space: nowrap;
+                margin-right: -1.6rem;
               }
             }
             &:last-child {
@@ -158,10 +161,12 @@
                     
                   }
                 }
-                &:nth-child(2){
-                  margin-right: -1.6rem;
-                  margin-bottom: .8rem;
-                  margin-top: -1.6rem;
+                &:nth-child(1){
+                  
+                  td{
+                    
+                    text-align: end;
+                  }
                 }
 
               }

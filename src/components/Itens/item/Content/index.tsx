@@ -51,17 +51,16 @@ export function ItemContent({
             })}
           >
             <tr>
-              <td>
+              <th>
                 {img.map((foto) => (
                   foto.label === plano.category.label ? <img src={foto.img} /> : ''
                 ))}
-              </td>
-            </tr>
-            <tr>
-              <th> </th>
+              </th>
               <td
                 style={{backgroundColor: `#${cor}`}}
-              >{plano.category.operadora}</td>
+              >
+                {plano.category.operadora}
+              </td>
             </tr>
             <tr>
               <th>ramo</th>
